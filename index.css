@@ -1,25 +1,32 @@
 html,
 body {
-  font-family: Arial, Helvetica, sans-serif;
   font-family: 'Poppins', sans-serif;
+  background-color: #e5e5e5;
+  margin: 0;
+  width: 100vw;
 }
 
 /*
   ========================================
-  Nav
+  Navigation
   ========================================
 */
 
-.nav {
+.nav {  
   display: flex;
   justify-content: space-between;
+  background-color: #ffffff;
+  padding: 1rem 1.5rem;
 }
 
 .logo {
-  color: #6070FF;
-  font-size: 18px;
+  color: #6070ff;
+  font-size: 1.125rem;
   font-weight: bold;
-  margin-left: 24px;
+}
+
+a {
+  text-decoration: none;
 }
 
 .btn.menu {
@@ -28,5 +35,60 @@ body {
   cursor: pointer;
   margin: 0;
   padding: 0;
-  margin-right: 24px;
+}
+
+/*
+  ========================================
+  Headline
+  ========================================
+*/
+
+.headline {
+  background-image: url('img/header-shapes mobile@2x.svg');
+  background-repeat: no-repeat;
+  border-bottom-left-radius: 5rem;
+  background-color: #ffffff;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  padding-top: 4.5rem;
+  padding-bottom: 8.5rem;
+}
+
+.header {
+  margin: 0;
+  padding:  1.5rem;
+  padding-bottom: 0;
+  font-size: 2.5rem;
+  line-height: 3.25rem;
+}
+
+.about p {
+  padding: 1rem 1.5rem;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin: 0;
+}
+
+.about .links-paragraph {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.socials {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: .6rem;
+  padding-left: 1rem;
+}
+
+li {
+  list-style: none;
+}
+
+a img {
+  height: 1.75rem;
 }
