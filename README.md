@@ -14,6 +14,13 @@
 
 [Live Demo Link](https://fbclh.github.io/portfolio-microverse/)
 
+## Getting Started
+
+To get a local copy up and running follow there simple steps:
+
+- You can clone this repo by typing git clone git@github.com:fbclh/portfolio-microverse.git on you terminal.
+- Type cd portfolio-microverse to access the project on the terminal
+
 ## Authors
 
 👤 **Author1**
