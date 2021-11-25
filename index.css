@@ -95,3 +95,95 @@ li {
 a image {
   height: 1.75rem;
 }
+
+/*
+  ========================================
+  Cards
+  ========================================
+*/
+
+.portfolio-cards {
+  display: flex;
+  flex-direction: column;
+  /* gap: 5rem 0; */
+  margin-top: 2rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+  background-color: #fff;
+  border-radius: 0.5rem;
+  border: 1px solid #DFE1E6;
+}
+
+.card-img {
+  margin: auto;
+  margin-top: 1rem;
+}
+
+.about-projects {
+  margin: 0 1rem;
+}
+
+.about-projects h3 {
+  font-size: 2rem;
+  color: #172b4d;
+  margin-top: 0.375rem;
+  margin-bottom: 0.5rem;
+}
+
+.spans {
+  font-size: 0.813rem;
+}
+
+.spans img {
+  margin: 0 0.5rem;
+}
+
+.span-one {
+  font-weight: 600;
+  color: #344563;
+}
+
+.span-two,
+.span-three {
+  font-weight: 600;
+  color: #7a869a;
+}
+
+.about-projects p {
+  font-size: 0.938rem;
+  color: #344563;
+}
+
+.tech-tag li {
+  background-color: #ebebff;
+  padding: 4px 12px;
+  border-radius: 8px;
+  font-size: 12px;
+  color: #6070ff;
+}
+
+.tech-tag {
+  display: flex;
+  gap: 0.5rem;
+  padding-left: 0;
+}
+
+.btn.card {
+  font-size: 1.063rem;
+  padding: 12px;
+  color: #396df2;
+  background: #ffffff;
+  border: 1px solid #7f8cff;
+  /* border: 1px solid #DFE1E6; */
+  box-sizing: border-box;
+  border-radius: 8px;
+  letter-spacing: 0.03em;
+  margin: 1.5rem 0;
+}
