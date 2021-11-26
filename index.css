@@ -1,6 +1,6 @@
 html,
 body {
-  background-color: #e5e5e5;
+  background-color: #f7f7f9;
   font-family: 'Poppins', sans-serif;
   margin: 0;
   width: 100vw;
@@ -66,6 +66,10 @@ a {
   padding-bottom: 0;
 }
 
+.about-paragraph {
+  padding-top: 0.5rem;
+}
+
 .about p {
   color: #344563;
   font-size: 1rem;
@@ -75,9 +79,15 @@ a {
 }
 
 .about .links-paragraph {
-  color: #6070ff;
+  color: #7f8cff;
   padding-bottom: 0;
   padding-top: 0;
+  margin-top: 0;
+  margin-bottom: -0.5rem;
+  margin-left: 1.5rem;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
 }
 
 .socials {
