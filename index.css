@@ -103,10 +103,10 @@ a image {
 */
 
 .portfolio-cards {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: auto;
   /* gap: 5rem 0; */
-  margin-top: 2rem;
+  margin: 7rem;
   margin-left: 1.5rem;
   margin-right: 1.5rem;
 }
@@ -118,7 +118,7 @@ a image {
   /* align-items: center; */
   background-color: #fff;
   border-radius: 0.5rem;
-  border: 1px solid #DFE1E6;
+  border: 1px solid #dfe1e6;
 }
 
 .card-img {
@@ -186,4 +186,81 @@ a image {
   border-radius: 8px;
   letter-spacing: 0.03em;
   margin: 1.5rem 0;
+}
+
+/*
+  ========================================
+  About
+  ========================================
+*/
+
+.about-me {
+  border-top-right-radius: 5rem;
+  background-color: #fff;
+}
+
+.btn.me {
+  font-size: 1.063rem;
+  padding: 1rem;
+  margin-left: 1rem;
+  color: #396df2;
+  background: #ffffff;
+  border: 1px solid #7f8cff;
+  box-sizing: border-box;
+  border-radius: 8px;
+  letter-spacing: 0.03em;
+}
+
+.extra-info {
+  margin-top: 2rem;
+}
+
+ul {
+  padding: 0;
+}
+
+.languages,
+.frameworks,
+.skills {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 1rem;
+  margin-right: 2rem;
+}
+
+.languages p,
+.frameworks p,
+.skills p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.lang-p {
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+  background: #f7f7f9;
+  border-radius: 8px;
+  margin: 0.5rem 1.5rem;
+}
+
+.lang-p img {
+  padding: 0.5rem;
+}
+
+.lang-p p {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  padding-left: 0.5rem;
+}
+
+hr {
+  /* border: 1px solid #dfe1e6; */
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  margin: 0 1.5rem;
 }
