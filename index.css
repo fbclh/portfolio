@@ -283,10 +283,7 @@ a image {
 
 .extra-info {
   margin-top: 2rem;
-}
-
-ul {
-  padding: 0;
+  padding-left: 0;
 }
 
 .languages,
