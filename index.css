@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 html,
 body {
   background-color: #f7f7f9;
@@ -386,3 +390,27 @@ label,
 input {
   width: 100%;
 }
+
+/* style by Sergio */
+
+.name {
+  width: 80vw;
+  height: 8vh;
+  background-color: white;
+  margin: 0.8em 1em  0.8em 1em;
+  border: solid 2px #dfdfe0;
+  border-radius: 4px;
+  outline: none;
+}
+
+.message {
+  width: 80vw;
+  height: 20vh;
+  background-color: white;
+  margin: 0.2em 1em  0.8em 1em;
+  border: solid 2px #dfdfe0;
+  border-radius: 4px;
+  outline: none;
+}
+
+/* end of style by Sergio */
