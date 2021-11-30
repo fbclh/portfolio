@@ -7,6 +7,7 @@ body {
   background-color: #f7f7f9;
   font-family: 'Poppins', sans-serif;
   margin: 0;
+
   /* width: 100vw; */
 }
 
@@ -356,16 +357,18 @@ hr {
 
 .contact {
   align-items: center;
-  background: #6070ff url('img/contact form shapes-mobile@1x.svg') top 3rem
+  background:
+    #6070ff url('img/contact form shapes-mobile@1x.svg') top 3rem
     right no-repeat; /* Short hand property */
+
   border-top-left-radius: 5rem;
   display: flex;
   flex-direction: column;
 }
 
 .contact-header {
-  color: #ffffff;
-  font-family: Poppins;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
   font-size: 2.5rem;
   font-style: normal;
   font-weight: bold;
@@ -377,7 +380,7 @@ hr {
 
 .contact-info {
   color: #ebebff;
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   font-size: 1.25rem;
   font-style: normal;
   font-weight: 400;
@@ -406,7 +409,7 @@ hr {
   border: solid 1px #dfdfe0;
   border-radius: 0.5rem;
   color: #b3bac5;
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   height: 3rem;
   margin: 0.625rem 1.75rem 0.625rem 1.75rem;
   outline: none;
@@ -419,7 +422,7 @@ hr {
   border: solid 1px #dfdfe0;
   border-radius: 0.5rem;
   color: #b3bac5;
-  font-family: Poppins;
+  font-family: 'Poppins', sans-serif;
   height: 10.625rem;
   margin: 0.625rem 1.75rem 0.625rem 1.75rem;
   outline: none;
