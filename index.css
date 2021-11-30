@@ -361,6 +361,7 @@ hr {
   background:
     #6070ff url('img/contact form shapes-mobile@1x.svg') top 3rem
     right no-repeat; /* Short hand property */
+
   border-top-left-radius: 5rem;
   display: flex;
   flex-direction: column;
