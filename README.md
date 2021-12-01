@@ -18,17 +18,15 @@
 
 To get a local copy up and running follow there simple steps:
 
-- You can clone this repo by typing ```git clone``` git@github.com:fbclh/portfolio-microverse.git on you terminal.
-- Type ```cd``` portfolio-microverse to access the project on the terminal
+- You can clone this repo by typing `git clone` git@github.com:fbclh/portfolio-microverse.git on you terminal.
+- Type `cd` portfolio-microverse to access the project on the terminal
 
 ## Authors
 
-👤 **Author1**
+- GitHub: [@fbclh](https://github.com/fbclh)
+- LinkedIn: [@fbclh](https://www.linkedin.com/in/fbclh)
 
-- GitHub: [@githubhandle](https://github.com/fbclh)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/fbclh)
-
-## 🤝 Contributing
+## Contributing
 
 Contributions, issues, and feature requests are welcome!
 
@@ -36,7 +34,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## Show your support
 
-Give a ⭐️ if you like this project!
+Give a star if you like this project!
 
 ## Acknowledgments
 
@@ -44,6 +42,6 @@ Give a ⭐️ if you like this project!
 - Inspiration
 - etc
 
-## 📝 License
+## License
 
 This project is [MIT](./MIT.md) licensed.
