@@ -446,7 +446,7 @@ hr {
 
 .btn:active {
   background: #2230d2;
-  border: 1px solid #7f8cff;
+  border: 1px solid #fff;
   border-radius: 0.5rem;
   color: #fff;
   font-size: 1.063rem;
