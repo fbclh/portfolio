@@ -1,6 +1,5 @@
 * {
   box-sizing: border-box;
-  /* border: solid 1px red; */
 }
 
 html,
@@ -43,7 +42,6 @@ a {
 
   .nav-links {
     display: flex;
-    /* font-size: 1.125rem; */
     font-size: 15px;
     gap: 2rem;
     margin: 0;
@@ -153,10 +151,7 @@ a image {
     background-repeat: no-repeat;
     background-size: 97.5%;
     background-position: center top 3rem;
-    /* background-size: cover; */
-    /* background-position: top right; */
     border-bottom-left-radius: 5rem;
-    /* height: 846px */
   }
 
   .about {
@@ -166,8 +161,6 @@ a image {
     align-items: flex-start;
     height: 610 px;
     padding: 16rem 14rem 15rem 15rem;
-    /* height: 846px; */
-    /* margin-bottom: 15rem; */
   }
 
   .br-two {
@@ -328,8 +321,6 @@ a image {
     border-radius: 1.5rem;
     display: flex;
     flex-direction: row;
-    /* min-height: 293px; */
-    /* height: 496px; */
   }
 
   .card.two {
@@ -363,13 +354,11 @@ a image {
   .about-projects-two,
   .about-projects-four {
     margin-left: 24px;
-    /* margin-top: 5px; */
   }
 
   .about-projects-one,
   .about-projects-three {
     padding-right: 24px;
-    /* margin-top: 5px; */
   }
 
   .card-header {
@@ -381,7 +370,6 @@ a image {
   .portfolio-cards {
     margin: 0;
     padding: 0;
-    /* margin: auto; */
   }
 
   .card-img {
@@ -390,32 +378,13 @@ a image {
   }
 
   .card-img img {
-    /* margin: auto; */
-    /* height: 448px; */
-    /* max-width: 50rem; */
-    /* display: block; */
-
-    /* min-width: 544px;
-    width: 100%;
-    height: auto; */
-
     width: 544px;
     max-width: 100%;
     height: auto;
-
-    /* height: auto; */
-    /* margin-top: 1rem; */
-    /* Trying to fix overflow */
-    /* padding-left: 0.5rem;
-    padding-right: 0.5rem; */
   }
 
   .img-mobile {
     display: none;
-  }
-
-  .about-projects {
-    /* font-size: 10%; */
   }
 }
 
@@ -560,22 +529,17 @@ hr {
   }
 
   .test {
-    /* padding-right: 1rem; */
     width: 40%;
   }
 
   ul.extra-info {
     margin-top: 0;
     width: 60%;
-    /* margin-left: 3rem; */
   }
 
   .tech {
     display: flex;
     gap: 1rem;
-    /* gap: 0; */
-    /* justify-content: flex-start; */
-    /* align-items: flex-end; */
   }
 
   .lang-paragraph {
@@ -584,7 +548,6 @@ hr {
     align-items: flex-start;
     margin-right: 0;
     padding-left: 1rem;
-    /* padding-right: 0.25rem; */
   }
 
   .lang-paragraph.two,
