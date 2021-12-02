@@ -16,12 +16,12 @@ body {
 */
 
 .nav {
+  align-items: center;
   background-color: #fff;
   display: flex;
-  align-items: center;
+  height: 71px;
   justify-content: space-between;
   padding: 1rem 1.5rem;
-  height: 71px;
 }
 
 .logo {
@@ -45,15 +45,12 @@ a {
     font-size: 15px;
     gap: 2rem;
     margin: 0;
+    margin-right: 155px;
     padding: 0;
   }
 
   .logo {
     margin-left: 155px;
-  }
-
-  .nav-links {
-    margin-right: 155px;
   }
 }
 
@@ -80,9 +77,9 @@ a {
 .headline {
   background-color: #fff;
   background-image: url('img/header-shapes mobile@2x.svg');
+  background-position: right top;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: right top;
   border-bottom-left-radius: 5rem;
 }
 
@@ -148,18 +145,17 @@ a image {
   .headline {
     background-color: #fff;
     background-image: url('img/Header bg@2x.svg');
+    background-position: center top 3rem;
     background-repeat: no-repeat;
     background-size: 97.5%;
-    background-position: center top 3rem;
     border-bottom-left-radius: 5rem;
   }
 
   .about {
+    align-items: flex-start;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: flex-start;
-    height: 610 px;
     padding: 16rem 14rem 15rem 15rem;
   }
 
@@ -206,9 +202,9 @@ a image {
 }
 
 .card-img img {
-  width: 1000px;
-  max-width: 100%;
   height: auto;
+  max-width: 100%;
+  width: 1000px;
 }
 
 .about-projects-one,
@@ -363,8 +359,8 @@ a image {
 
   .card-header {
     font-size: 40px;
-    margin-top: 1.5rem;
     margin-bottom: 0;
+    margin-top: 1.5rem;
   }
 
   .portfolio-cards {
@@ -378,9 +374,9 @@ a image {
   }
 
   .card-img img {
-    width: 544px;
-    max-width: 100%;
     height: auto;
+    max-width: 100%;
+    width: 544px;
   }
 
   .img-mobile {
@@ -511,16 +507,13 @@ hr {
 
 @media screen and (min-width: 992px) {
   .about-me {
-    padding-bottom: 250px;
-    padding-top: 125px;
-  }
-
-  .about-me {
+    align-items: flex-start;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    align-items: flex-start;
     margin-top: 142px;
+    padding-bottom: 250px;
+    padding-top: 125px;
   }
 
   section.about.about-me {
@@ -543,9 +536,9 @@ hr {
   }
 
   .lang-paragraph {
+    align-items: flex-start;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     margin-right: 0;
     padding-left: 1rem;
   }
@@ -571,8 +564,10 @@ hr {
 
 .contact {
   align-items: center;
-  background: #6070ff url('img/contact form shapes-mobile@1x.svg') top 3rem
+  background:
+    #6070ff url('img/contact form shapes-mobile@1x.svg') top 3rem
     right no-repeat; /* Short hand property */
+
   border-top-left-radius: 5rem;
   display: flex;
   flex-direction: column;
@@ -695,7 +690,8 @@ hr {
 @media screen and (min-width: 992px) {
   .contact {
     align-items: center;
-    background: #6070ff url('img/contact form background shapes@2x.svg') top
+    background:
+      #6070ff url('img/contact form background shapes@2x.svg') top
       3rem right 5rem no-repeat;
     border-top-left-radius: 5rem;
     display: flex;
