@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  /* border: solid 1px red; */
 }
 
 html,
@@ -18,26 +19,20 @@ body {
 .nav {
   background-color: #fff;
   display: flex;
+  align-items: center;
   justify-content: space-between;
   padding: 1rem 1.5rem;
+  height: 71px;
 }
 
 .logo {
-  color: #6070ff;
-  font-size: 1.125rem;
-  font-weight: bold;
+
+  height: 2.5rem;
+  margin-top: .25rem;
 }
 
 a {
   text-decoration: none;
-}
-
-.btn.menu {
-  background: none;
-  border: none;
-  cursor: pointer;
-  margin: 0;
-  padding: 0;
 }
 
 /*
@@ -51,6 +46,7 @@ a {
   background-image: url('img/header-shapes mobile@2x.svg');
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: right top;
   border-bottom-left-radius: 5rem;
 }
 
@@ -110,6 +106,7 @@ a image {
   height: 1.75rem;
 }
 
+
 /*
   ========================================
   Cards
@@ -119,9 +116,12 @@ a image {
 .portfolio-cards {
   display: grid;
   grid-template-columns: auto;
-  margin: 7rem;
-  margin-left: 1.5rem;
-  margin-right: 1.5rem;
+  margin: 7rem 0;
+  /* Trying to fix overflow */
+  padding-left: 4%;
+  padding-right: 4%;
+  /* margin-left: 1.5rem;
+  margin-right: 1.5rem; */
 }
 
 .card {
@@ -130,15 +130,27 @@ a image {
   border-radius: 0.5rem;
   display: flex;
   flex-direction: column;
+  /* Trying to fix overflow */
+  /* margin-left: 1rem;
+  margin-right: 1rem; */
 }
 
 .card-img {
   margin: auto;
   margin-top: 1rem;
+  /* Trying to fix overflow */
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.card-img img {
+  width: 1000px;
+  max-width: 100%;
+  height: auto;
 }
 
 .about-projects {
-  margin: 0 1rem;
+  margin: 1rem;
 }
 
 .about-projects h3 {
@@ -356,10 +368,8 @@ hr {
 
 .contact {
   align-items: center;
-  background:
-    #6070ff url('img/contact form shapes-mobile@1x.svg') top 3rem
+  background: #6070ff url('img/contact form shapes-mobile@1x.svg') top 3rem
     right no-repeat; /* Short hand property */
-
   border-top-left-radius: 5rem;
   display: flex;
   flex-direction: column;
@@ -401,6 +411,7 @@ hr {
   margin: 0.625rem 1.75rem 0.625rem 1.75rem;
   outline: none;
   padding: 0.938rem;
+  /* min-width: 327px; */
   width: 90vw;
 }
 
@@ -414,6 +425,7 @@ hr {
   margin: 0.625rem 1.75rem 0.625rem 1.75rem;
   outline: none;
   padding: 0.938rem;
+  /* min-width: 327px; */
   width: 90vw;
 }
 

@@ -20,10 +20,15 @@
     <header>
       <!-- Navigation -->
       <nav class="nav">
-        <a href="/"><div class="logo">My Logo</div></a>
+        <a href="/"><img class="logo" src="img/fabio-logo.svg" alt="Site logo" /></a>
         <button class="btn menu" type="button">
           <img src="img/menu.svg" alt="Menu open" />
         </button>
+        <ul class="nav-links">
+          <li><a href="">Portfolio</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
       </nav>
     </header>
 
@@ -31,7 +36,7 @@
       <!-- Headline -->
       <section class="headline about">
         <h1 class="header">
-          I’m Fabio<br />Glad to see<br />
+          I’m Fabio<br />Glad to see<br class="br-two" />
           you!
         </h1>
         <p class="about-paragraph">
@@ -74,10 +79,11 @@
       <section class="portfolio-cards">
         <div class="card one">
           <div class="card-img">
-            <img src="img/snapshoot1.png" alt="" />
+            <img class="img-mobile" src="img/snapshoot1.png" alt="" />
+            <img class="img-desktop" src="img/snapshot-desktop1.png" alt="" />
           </div>
-          <div class="about-projects">
-            <h3>Tonic</h3>
+          <div class="about-projects-one">
+            <h3 class="card-header">Tonic</h3>
             <div class="spans">
               <span class="span-one">CANOPY</span>
               <img src="img/counter.svg" alt="Circle" />
@@ -101,10 +107,11 @@
       <section class="portfolio-cards">
         <div class="card two">
           <div class="card-img">
-            <img src="img/snapshoot2.png" alt="" />
+            <img class="img-mobile" src="img/snapshoot2.png" alt="" />
+            <img class="img-desktop" src="img/snapshot-desktop2.png" alt="" />
           </div>
-          <div class="about-projects">
-            <h3>Multi-Post Stories</h3>
+          <div class="about-projects-two">
+            <h3 class="card-header">Multi-Post Stories</h3>
             <div class="spans">
               <span class="span-one">CANOPY</span>
               <img src="img/counter.svg" alt="Circle" />
@@ -128,10 +135,11 @@
       <section class="portfolio-cards">
         <div class="card three">
           <div class="card-img">
-            <img src="img/snapshoot3.png" alt="" />
+            <img class="img-mobile" src="img/snapshoot3.png" alt="" />
+            <img class="img-desktop" src="img/snapshot-desktop3.png" alt="" />
           </div>
-          <div class="about-projects">
-            <h3>Tonic</h3>
+          <div class="about-projects-three">
+            <h3 class="card-header">Tonic</h3>
             <div class="spans">
               <span class="span-one">CANOPY</span>
               <img src="img/counter.svg" alt="Circle" />
@@ -155,10 +163,11 @@
       <section class="portfolio-cards">
         <div class="card four">
           <div class="card-img">
-            <img src="img/snapshoot4.png" alt="" />
+            <img class="img-mobile" src="img/snapshoot4.png" alt="" />
+            <img class="img-desktop" src="img/snapshot-desktop4.png" alt="" />
           </div>
-          <div class="about-projects">
-            <h3>Multi-Post Stories</h3>
+          <div class="about-projects-four">
+            <h3 class="card-header">Multi-Post Stories</h3>
             <div class="spans">
               <span class="span-one">CANOPY</span>
               <img src="img/counter.svg" alt="Circle" />
@@ -182,58 +191,59 @@
 
       <!-- About -->
       <section class="about about-me">
-        <h1 class="header">About<br />Myself</h1>
-        <p class="about-paragraph">
-          I’m a software developer! I can help you build a product , feature or
-          website Look through some of my work and experience! If you like what
-          you see and have a project you need coded, don’t hestiate to contact
-          me.
-        </p>
-        <h3 class="links-paragraph">LET’S CONNECT</h3>
-        <ul class="socials">
-          <li>
-            <a href="" target="_blank" rel="">
-              <img src="img/icons8-twitter.svg" alt="Twitter icon" />
-            </a>
-          </li>
-          <li>
-            <a href="" target="_blank" rel="">
-              <img src="img/icons8-linkedin-2.svg" alt="Linkedin icon" />
-            </a>
-          </li>
-          <li>
-            <a href="" target="_blank" rel="">
-              <img src="img/icons8-medium-new.svg" alt="Medium icon" />
-            </a>
-          </li>
-          <li>
-            <a href="" target="_blank" rel="">
-              <img src="img/icons8-github.svg" alt="GitHub icon" />
-            </a>
-          </li>
-          <li>
-            <a href="" target="_blank" rel="">
-              <img src="img/icons8-angellist.svg" alt="AngelList icon" />
-            </a>
-          </li>
-        </ul>
-        <div><button class="btn me" type="button">Get my resume</button></div>
-
+        <div class="test">
+          <h1 class="header">About<br />Myself</h1>
+          <p class="about-paragraph">
+            I’m a software developer! I can help you build a product , feature
+            or website Look through some of my work and experience! If you like
+            what you see and have a project you need coded, don’t hestiate to
+            contact me.
+          </p>
+          <h3 class="links-paragraph">LET’S CONNECT</h3>
+          <ul class="socials">
+            <li>
+              <a href="" target="_blank" rel="">
+                <img src="img/icons8-twitter.svg" alt="Twitter icon" />
+              </a>
+            </li>
+            <li>
+              <a href="" target="_blank" rel="">
+                <img src="img/icons8-linkedin-2.svg" alt="Linkedin icon" />
+              </a>
+            </li>
+            <li>
+              <a href="" target="_blank" rel="">
+                <img src="img/icons8-medium-new.svg" alt="Medium icon" />
+              </a>
+            </li>
+            <li>
+              <a href="" target="_blank" rel="">
+                <img src="img/icons8-github.svg" alt="GitHub icon" />
+              </a>
+            </li>
+            <li>
+              <a href="" target="_blank" rel="">
+                <img src="img/icons8-angellist.svg" alt="AngelList icon" />
+              </a>
+            </li>
+          </ul>
+          <div><button class="btn me" type="button">Get my resume</button></div>
+        </div>
         <ul class="extra-info">
           <li class="languages">
             <p>Languages</p>
             <img src="img/arrow-open.svg" alt="" />
           </li>
           <li class="tech">
-            <div class="lang-paragraph">
+            <div class="lang-paragraph one">
               <img src="img/js.svg" alt="" />
               <p>JavaScript</p>
             </div>
-            <div class="lang-paragraph">
+            <div class="lang-paragraph two">
               <img src="img/html.svg" alt="" />
               <p>HTML</p>
             </div>
-            <div class="lang-paragraph">
+            <div class="lang-paragraph three">
               <img src="img/css.svg" alt="" />
               <p>CSS</p>
             </div>
