@@ -117,11 +117,8 @@ a image {
   display: grid;
   grid-template-columns: auto;
   margin: 7rem 0;
-  /* Trying to fix overflow */
   padding-left: 4%;
   padding-right: 4%;
-  /* margin-left: 1.5rem;
-  margin-right: 1.5rem; */
 }
 
 .card {
@@ -130,15 +127,11 @@ a image {
   border-radius: 0.5rem;
   display: flex;
   flex-direction: column;
-  /* Trying to fix overflow */
-  /* margin-left: 1rem;
-  margin-right: 1rem; */
 }
 
 .card-img {
   margin: auto;
   margin-top: 1rem;
-  /* Trying to fix overflow */
   padding-left: 0.5rem;
   padding-right: 0.5rem;
 }
@@ -411,7 +404,6 @@ hr {
   margin: 0.625rem 1.75rem 0.625rem 1.75rem;
   outline: none;
   padding: 0.938rem;
-  /* min-width: 327px; */
   width: 90vw;
 }
 
@@ -425,7 +417,6 @@ hr {
   margin: 0.625rem 1.75rem 0.625rem 1.75rem;
   outline: none;
   padding: 0.938rem;
-  /* min-width: 327px; */
   width: 90vw;
 }
 
