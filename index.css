@@ -536,6 +536,68 @@ hr {
   margin: 0 1.5rem;
 }
 
+/* About me | media queries */
+
+@media screen and (min-width: 992px) {
+  .about-me {
+    padding-bottom: 250px;
+    padding-top: 125px;
+  }
+
+  .about-me {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 142px;
+  }
+
+  section.about.about-me {
+    padding-left: 142px;
+    padding-right: 142px;
+  }
+
+  .test {
+    /* padding-right: 1rem; */
+    width: 40%;
+  }
+
+  ul.extra-info {
+    margin-top: 0;
+    width: 60%;
+    /* margin-left: 3rem; */
+  }
+
+  .tech {
+    display: flex;
+    gap: 1rem;
+    /* gap: 0; */
+    /* justify-content: flex-start; */
+    /* align-items: flex-end; */
+  }
+
+  .lang-paragraph {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 0;
+    padding-left: 1rem;
+    /* padding-right: 0.25rem; */
+  }
+
+  .lang-paragraph.two,
+  .lang-paragraph.three {
+    margin-left: 0;
+    padding-right: 2.25rem;
+  }
+
+  li.languages,
+  li.frameworks,
+  li.skills {
+    margin-right: 2.5rem;
+  }
+}
+
 /*
   ========================================
   Contact me
