@@ -564,7 +564,8 @@ hr {
 
 .contact {
   align-items: center;
-  background: #6070ff url('img/contact form shapes-mobile@1x.svg') top 3rem
+  background:
+    #6070ff url('img/contact form shapes-mobile@1x.svg') top 3rem
     right no-repeat; /* Short hand property */
 
   border-top-left-radius: 5rem;
@@ -689,7 +690,8 @@ hr {
 @media screen and (min-width: 992px) {
   .contact {
     align-items: center;
-    background: #6070ff url('img/contact form background shapes@2x.svg') top
+    background:
+      #6070ff url('img/contact form background shapes@2x.svg') top
       3rem right 5rem no-repeat;
     border-top-left-radius: 5rem;
     display: flex;
