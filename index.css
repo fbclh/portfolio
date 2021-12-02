@@ -200,7 +200,7 @@ a image {
 .card {
   background-color: #fff;
   border: 1px solid #dfe1e6;
-  border-radius: 0.5rem;
+  border-radius: 1rem;
   display: flex;
   flex-direction: column;
 }
@@ -208,8 +208,8 @@ a image {
 .card-img {
   margin: auto;
   margin-top: 1rem;
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .card-img img {
@@ -218,7 +218,10 @@ a image {
   height: auto;
 }
 
-.about-projects {
+.about-projects-one,
+.about-projects-two,
+.about-projects-three,
+.about-projects-four {
   margin: 1rem;
 }
 
@@ -744,5 +747,6 @@ hr {
   .btn {
     display: block;
     margin: auto;
+    margin-bottom: 100px;
   }
 }
