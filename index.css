@@ -145,6 +145,44 @@ a image {
   height: 1.75rem;
 }
 
+/* Headline | media queries */
+
+@media screen and (min-width: 992px) {
+  .headline {
+    background-color: #fff;
+    background-image: url('img/Header bg@2x.svg');
+    background-repeat: no-repeat;
+    background-size: 97.5%;
+    background-position: center top 3rem;
+    /* background-size: cover; */
+    /* background-position: top right; */
+    border-bottom-left-radius: 5rem;
+    /* height: 846px */
+  }
+
+  .about {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 610 px;
+    padding: 16rem 14rem 15rem 15rem;
+    /* height: 846px; */
+    /* margin-bottom: 15rem; */
+  }
+
+  .br-two {
+    display: none;
+  }
+
+  .header {
+    padding-top: 0;
+  }
+
+  .socials {
+    margin-bottom: 0;
+  }
+}
 
 /*
   ========================================
