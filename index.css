@@ -26,9 +26,8 @@ body {
 }
 
 .logo {
-
   height: 2.5rem;
-  margin-top: .25rem;
+  margin-top: 0.25rem;
 }
 
 a {
@@ -716,4 +715,34 @@ hr {
   margin-left: 1.75rem;
   margin-top: 0.5rem;
   padding: 0.75rem;
+}
+
+/* Contact me | media queries */
+
+@media screen and (min-width: 992px) {
+  .name,
+  .message {
+    max-width: 447px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .contact {
+    align-items: center;
+    background: #6070ff url('img/contact form background shapes@2x.svg') top
+      3rem right 5rem no-repeat;
+    border-top-left-radius: 5rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: -10%;
+  }
+
+  .contact-info {
+    width: 50%;
+  }
+
+  .btn {
+    display: block;
+    margin: auto;
+  }
 }
