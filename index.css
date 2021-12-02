@@ -317,6 +317,112 @@ a image {
   padding: 0.75rem;
 }
 
+/* Cards | media queries */
+
+@media screen and (min-width: 992px) {
+  .card.one {
+    background-color: #fff;
+    border: 1px solid #dfe1e6;
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    /* min-height: 293px; */
+    /* height: 496px; */
+  }
+
+  .card.two {
+    background-color: #fff;
+    border: 1px solid #dfe1e6;
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .card.three {
+    background-color: #fff;
+    border: 1px solid #dfe1e6;
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .card.four {
+    background-color: #fff;
+    border: 1px solid #dfe1e6;
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .card {
+    margin: 142px 142px 0 142px;
+  }
+
+  .about-projects-two,
+  .about-projects-four {
+    margin-left: 24px;
+    /* margin-top: 5px; */
+  }
+
+  .about-projects-one,
+  .about-projects-three {
+    padding-right: 24px;
+    /* margin-top: 5px; */
+  }
+
+  .card-header {
+    font-size: 40px;
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+  }
+
+  .portfolio-cards {
+    margin: 0;
+    padding: 0;
+    /* margin: auto; */
+  }
+
+  .card-img {
+    margin: 24px;
+    padding: 0;
+  }
+
+  .card-img img {
+    /* margin: auto; */
+    /* height: 448px; */
+    /* max-width: 50rem; */
+    /* display: block; */
+
+    /* min-width: 544px;
+    width: 100%;
+    height: auto; */
+
+    width: 544px;
+    max-width: 100%;
+    height: auto;
+
+    /* height: auto; */
+    /* margin-top: 1rem; */
+    /* Trying to fix overflow */
+    /* padding-left: 0.5rem;
+    padding-right: 0.5rem; */
+  }
+
+  .img-mobile {
+    display: none;
+  }
+
+  .about-projects {
+    /* font-size: 10%; */
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .img-desktop {
+    display: none;
+  }
+}
+
 /*
   ========================================
   About
