@@ -35,6 +35,45 @@ a {
   text-decoration: none;
 }
 
+/* Nav links | media queries */
+
+@media screen and (min-width: 992px) {
+  .btn.menu {
+    display: none;
+  }
+
+  .nav-links {
+    display: flex;
+    /* font-size: 1.125rem; */
+    font-size: 15px;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+  }
+
+  .logo {
+    margin-left: 155px;
+  }
+
+  .nav-links {
+    margin-right: 155px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .btn.menu {
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav-links {
+    display: none;
+  }
+}
+
 /*
   ========================================
   Headline
