@@ -35,7 +35,7 @@ a {
 
 /* Nav links | media queries */
 
-@media screen and (min-width: 992px) {
+@media (min-width: 992px) {
   .btn.menu {
     display: none;
   }
@@ -54,7 +54,7 @@ a {
   }
 }
 
-@media screen and (max-width: 992px) {
+@media (max-width: 992px) {
   .btn.menu {
     background: none;
     border: none;
@@ -141,7 +141,7 @@ a image {
 
 /* Headline | media queries */
 
-@media screen and (min-width: 992px) {
+@media (min-width: 992px) {
   .headline {
     background-color: #fff;
     background-image: url('img/Header bg@2x.svg');
@@ -310,7 +310,7 @@ a image {
 
 /* Cards | media queries */
 
-@media screen and (min-width: 992px) {
+@media (min-width: 992px) {
   .card.one {
     background-color: #fff;
     border: 1px solid #dfe1e6;
@@ -384,7 +384,7 @@ a image {
   }
 }
 
-@media screen and (max-width: 992px) {
+@media (max-width: 992px) {
   .img-desktop {
     display: none;
   }
@@ -505,7 +505,7 @@ hr {
 
 /* About me | media queries */
 
-@media screen and (min-width: 992px) {
+@media (min-width: 992px) {
   .about-me {
     align-items: flex-start;
     display: flex;
@@ -680,14 +680,14 @@ hr {
 
 /* Contact me | media queries */
 
-@media screen and (min-width: 992px) {
+@media (min-width: 992px) {
   .name,
   .message {
     max-width: 447px;
   }
 }
 
-@media screen and (min-width: 992px) {
+@media (min-width: 992px) {
   .contact {
     align-items: center;
     background:
