@@ -6,9 +6,10 @@
 
 ## Built With
 
-- Languages: HTML and CSS
+- Languages: HTML, CSS and JS
 - Frameworks: None
-- Technologies: Git, GitHub and VSCode
+- Technologies: Git, GitHub, VSCode and BEM
+
 
 ## Live Demo
 
