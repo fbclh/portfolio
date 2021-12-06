@@ -8,8 +8,8 @@
 
 - Languages: HTML, CSS and JS
 - Frameworks: None
-- Technologies: Git, GitHub, VSCode and BEM
-
+- Technologies: Git, GitHub, VSCode, BEM and Figma.
+ 
 
 ## Live Demo
 
