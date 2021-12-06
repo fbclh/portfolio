@@ -9,11 +9,10 @@
 - Languages: HTML, CSS and JS
 - Frameworks: None
 - Technologies: Git, GitHub, VSCode, BEM and Figma.
- 
 
 ## Live Demo
 
-[Live Demo Link](https://fbclh.github.io/portfolio-microverse/)
+[fbclh.me](https://fbclh.me)
 
 ## Getting Started
 
