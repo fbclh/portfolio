@@ -12,7 +12,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://fbclh.github.io/portfolio-microverse/)
+[www.fbclh.me](http://www.fbclh.me/)
 
 ## Getting Started
 
