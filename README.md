@@ -12,7 +12,7 @@
 
 ## Live Demo
 
-[www.fbclh.me](https://www.fbclh.me)
+[www.fbclh.me](http://www.fbclh.me/)
 
 ## Getting Started
 
