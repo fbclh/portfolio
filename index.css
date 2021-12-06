@@ -54,6 +54,14 @@ ol {
 .nav__logo {
   height: 2.5rem;
   margin-top: 0.25rem;
+  animation-name: rotate-360;
+  animation-duration: 2s;
+}
+
+@keyframes rotate-360 {
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 /* Navigation | media queries for desktop */
@@ -741,3 +749,4 @@ ol {
 
 
 /* New media queries break points for tablets */
+/* Redesign when project finish */
