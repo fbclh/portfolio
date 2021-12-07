@@ -106,3 +106,4 @@ dist
 # Miscellaneous
 .DS_store
 .vscode
+.CNAME
