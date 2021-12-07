@@ -6,9 +6,10 @@
 
 ## Built With
 
-- Languages: HTML and CSS
+- Languages: HTML, CSS and JS.
+- Technologies: Git, GitHub, BEM, VSCode and Figma.
+- Linters: Lighthouse, Webhint and Stylelint.
 - Frameworks: None
-- Technologies: Git, GitHub and VSCode
 
 ## Live Demo
 
