@@ -4,25 +4,13 @@
   ========================================
 */
 
-:root {
-  /* --first-color: #36b37e;
-  --second-color: #172b4d;
-  --third-color: #c5e9da;
-  --fourth-color: #ebf0ee;
-  --dark-color: #28352f;
-  --light-color: #fff;
-  --primary-btn-hover: #36b37f;
-  --primary-btn-active: #008552;
-  --border-primary-color: #e5e5e5; */
-}
-
 * {
-  box-sizing: border-box; /* Use reset for general */
+  box-sizing: border-box; 
 }
 
 html,
 body {
-  background-color: #f7f7f9; /* Use variables for colors etc... */
+  background-color: #f7f7f9; 
   font-family: 'Poppins', sans-serif;
   margin: 0;
 }
@@ -43,7 +31,7 @@ ol {
 */
 
 .nav {
-  align-items: center; /* Reorder logically with PostCSS */
+  align-items: center; 
   background-color: #fff;
   display: flex;
   height: 4.438rem;
@@ -127,7 +115,7 @@ ol {
   line-height: 3.25rem;
   margin: 0;
   padding: 1.5rem;
-  padding-top: 12px; /* Change px to rem/em etc... */
+  padding-top: 12px; 
   padding-bottom: 0;
 }
 
@@ -261,7 +249,7 @@ ol {
 
 .portfolio__span-two,
 .portfolio__span-three {
-  color: #7a869a; /* Change written number for number */
+  color: #7a869a; 
   font-weight: 600;
 }
 
@@ -343,7 +331,7 @@ ol {
   }
 
   .portfolio__card--one {
-    background-color: #fff; /* Remove repetition */
+    background-color: #fff; 
     border: 1px solid #dfe1e6;
     border-radius: 1.5rem;
     display: flex;
@@ -503,7 +491,7 @@ ol {
 .about__para-info,
 .about__para-info,
 .about__para-info {
-  font-size: 1.25rem; /* Repetition ??? */
+  font-size: 1.25rem; 
   font-weight: 500;
   line-height: 1.5rem;
 }
@@ -549,7 +537,7 @@ ol {
     padding-bottom: 250px;
     padding-top: 125px;
     padding-left: 142px;
-    padding-right: 142px; /* Write shorthand */
+    padding-right: 142px; 
   }
 
   .about__container {
@@ -586,7 +574,7 @@ ol {
   .about__languages,
   .about__frameworks,
   .about__skills {
-    margin-right: 2.5rem; /* ??? */
+    margin-right: 2.5rem; 
   }
 }
 
@@ -599,7 +587,7 @@ ol {
 .contact--img {
   align-items: center;
   background: #6070ff url('img/contact form shapes-mobile@1x.svg') top 3rem
-    right no-repeat; /* Short hand property */
+    right no-repeat; 
   border-top-left-radius: 5rem;
   display: flex;
   flex-direction: column;
@@ -747,6 +735,22 @@ ol {
   ========================================
 */
 
-
+/* Use variables for colors etc... As bellow: */
+/* :root { 
+  --first-color: #36b37e;
+  --second-color: #172b4d;
+  --third-color: #c5e9da;
+  --primary-btn-hover: #36b37f;
+  --primary-btn-active: #008552;
+} */
 /* New media queries break points for tablets */
+/* Use reset for general rules */
+/* Reorder CSS logically with PostCSS plugins */
+/* Change px to rem/em and % on margin/padding for scaling */
+/* Change written number for number on the classes */
+/* Remove repetition on: .portfolio__card--one */
+/* Repetition on .about__para-info ? */
+/* Write shorthand for margin and padding */
+/* Unnecessary margin on .about__languages ? */
+/* Remove short hand property on .contact--img background */
 /* Redesign when project finish */
