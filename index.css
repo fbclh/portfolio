@@ -735,6 +735,7 @@ ol {
   ========================================
 */
 
+/* Add href to HTML links */
 /* Use variables for colors etc... As bellow: */
 /* :root { 
   --first-color: #36b37e;
@@ -753,4 +754,5 @@ ol {
 /* Write shorthand for margin and padding */
 /* Unnecessary margin on .about__languages ? */
 /* Remove short hand property on .contact--img background */
+/* Add form autofocus */
 /* Redesign when project finish */
