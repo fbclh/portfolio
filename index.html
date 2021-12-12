@@ -7,7 +7,7 @@
     <meta name="author" content="" />
     <meta name="description" content="" />
 
-     <!-- Links -->
+    <!-- Links -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -21,7 +21,7 @@
 
     <!-- Script -->
     <script src="index.js" type="text/javascript" defer></script>
-    
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script
       async
@@ -48,10 +48,20 @@
           <img src="img/menu.svg" alt="Menu open" />
         </button>
         <ul class="nav__links">
-          <li><a href="">Portfolio</a></li>
-          <li><a href="">About</a></li>
-          <li><a href="">Contact</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
+        <!-- <div>
+          <button>
+            <img src="img/menu-close.svg" alt="Menu close" />
+          </button>
+          <ul class="nav__links">
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div> -->
       </nav>
     </header>
 
@@ -101,7 +111,7 @@
       </section>
 
       <!-- Portfolio -->
-      <section class="portfolio">
+      <section id="portfolio" class="portfolio">
         <div class="portfolio__card portfolio__card--one">
           <div class="portfolio__images">
             <img
@@ -279,7 +289,7 @@
       </section>
 
       <!-- About -->
-      <section class="about">
+      <section id="about" class="about">
         <div class="about__container">
           <h2 class="about__header">About<br />Myself</h2>
           <p class="about__paragraph">
@@ -352,7 +362,7 @@
       </section>
 
       <!-- Contact -->
-      <section class="contact contact--img">
+      <section id="contact" class="contact contact--img">
         <h2 class="contact__header">Contact me</h2>
         <p class="contact__info">
           If you have an application you are interested in developing, a feature

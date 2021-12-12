@@ -413,15 +413,41 @@ ol {
 }
 
 .about__header {
+  color: #172b4d;
+  font-size: 2.5rem;
+  line-height: 3.25rem;
+  margin: 0;
+  padding: 1.5rem;
+  padding-top: 12px; 
+  padding-bottom: 0;
 }
 
 .about__paragraph {
+  color: #344563;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin: 0;
+  padding: 1rem 1.5rem;
 }
 
 .about__text {
+  color: #7f8cff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-bottom: -0.5rem;
+  margin-left: 1.5rem;
+  margin-top: 0;
+  padding-bottom: 0;
+  padding-top: 0;
 }
 
 .about__socials {
+  align-items: center;
+  display: flex;
+  gap: 0.6rem;
+  justify-content: flex-start;
+  padding-left: 1.5rem;
 }
 
 .about__btn {
@@ -747,7 +773,7 @@ ol {
   --primary-btn-active: #008552;
 } */
 /* New media queries break points for tablets */
-/* Use reset for general rules */
+/* Use mini reset for general rules or normalizer */
 /* Reorder CSS logically with PostCSS plugins */
 /* Change px to rem/em and % on margin/padding for scaling */
 /* Change written number for number on the classes */
