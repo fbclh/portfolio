@@ -1,4 +1,7 @@
-// Mobile menu (Dynamic HTML)
+// 1 - Mobile menu (Dynamic HTML)
+// 2 - Popup window (JS objects)
+// 3 - Validate contact form (Client side validation)
+// 4 - Preserve data in the browser (Local storage)
 
 const openIcon = document.querySelector('.nav__icon-open');
 const mobileMenu = document.querySelector('.nav__mobile-menu');
@@ -19,7 +22,4 @@ menuLinks.forEach((el) => {
   });
 });
 
-// Popup window (JS objects)
-// Validate contact form (Client side validation)
-// Preserve data in the browser (Local storage)
 
