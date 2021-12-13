@@ -142,8 +142,8 @@ ol {
 .hero {
   display: flex;
   flex-direction: column;
-  padding-bottom: 6rem; 
-  padding-top: 4.5rem; 
+  padding-bottom: 6rem;
+  padding-top: 4.5rem;
 }
 
 .hero--img {
