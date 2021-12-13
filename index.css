@@ -5,12 +5,12 @@
 */
 
 * {
-  box-sizing: border-box; 
+  box-sizing: border-box;
 }
 
 html,
 body {
-  background-color: #f7f7f9; 
+  background-color: #f7f7f9;
   font-family: 'Poppins', sans-serif;
   margin: 0;
 }
@@ -31,7 +31,7 @@ ol {
 */
 
 .nav {
-  align-items: center; 
+  align-items: center;
   background-color: #fff;
   display: flex;
   height: 4.438rem;
@@ -52,10 +52,59 @@ ol {
   }
 }
 
+/* Mobile menu TEST START */
+
+.test {
+  /* position: absolute; */
+  margin-top: -100vh;
+  /* height: -100vh; */
+  /* display: none; */
+  /* margin-left: -100%; */
+  /* background: #6070FF; */
+  /* background: #fff; */
+  /* display: none; */
+}
+
+.nav__mobile-menu {
+  background: #6070ff;
+  /* position: absolute; */
+  /* top: 0;
+  left: 0;
+  right: 0; */
+  /* transition: margin 0.6s ease; */
+  /* z-index: 1; */
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; 
+  /* height: 100vh; */
+  /* overflow: hidden; */
+}
+
+.nav__mobile-links {
+  color: white;
+}
+
+.nav__btn-mobile {
+  margin-right: 1.5rem;
+  margin-top: 1.5rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.nav__mobile {
+  align-self: flex-start;
+  padding-left: 1.5rem;
+  margin-top: -1.75rem;
+}
+
+/* Mobile menu TEST END */
+
 /* Navigation | media queries for desktop */
 
 @media (min-width: 992px) {
-  .nav__btn--menu {
+  .nav__btn {
     display: none;
   }
 
@@ -96,8 +145,8 @@ ol {
 .hero {
   display: flex;
   flex-direction: column;
-  padding-bottom: 6rem;
-  padding-top: 4.5rem;
+  padding-bottom: 6rem; /* Use % */
+  padding-top: 4.5rem; /* Use % */
 }
 
 .hero--img {
@@ -115,7 +164,7 @@ ol {
   line-height: 3.25rem;
   margin: 0;
   padding: 1.5rem;
-  padding-top: 12px; 
+  padding-top: 12px;
   padding-bottom: 0;
 }
 
@@ -164,7 +213,7 @@ ol {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding: 16rem 14rem 15rem 15rem;
+    padding: 16rem 14rem 15rem 15rem; /* Use % */
   }
 
   .hero__header {
@@ -249,7 +298,7 @@ ol {
 
 .portfolio__span-two,
 .portfolio__span-three {
-  color: #7a869a; 
+  color: #7a869a;
   font-weight: 600;
 }
 
@@ -331,7 +380,7 @@ ol {
   }
 
   .portfolio__card--one {
-    background-color: #fff; 
+    background-color: #fff;
     border: 1px solid #dfe1e6;
     border-radius: 1.5rem;
     display: flex;
@@ -418,7 +467,7 @@ ol {
   line-height: 3.25rem;
   margin: 0;
   padding: 1.5rem;
-  padding-top: 12px; 
+  padding-top: 12px;
   padding-bottom: 0;
 }
 
@@ -517,7 +566,7 @@ ol {
 .about__para-info,
 .about__para-info,
 .about__para-info {
-  font-size: 1.25rem; 
+  font-size: 1.25rem;
   font-weight: 500;
   line-height: 1.5rem;
 }
@@ -563,7 +612,7 @@ ol {
     padding-bottom: 250px;
     padding-top: 125px;
     padding-left: 142px;
-    padding-right: 142px; 
+    padding-right: 142px;
   }
 
   .about__container {
@@ -600,7 +649,7 @@ ol {
   .about__languages,
   .about__frameworks,
   .about__skills {
-    margin-right: 2.5rem; 
+    margin-right: 2.5rem;
   }
 }
 
@@ -613,7 +662,7 @@ ol {
 .contact--img {
   align-items: center;
   background: #6070ff url('img/contact form shapes-mobile@1x.svg') top 3rem
-    right no-repeat; 
+    right no-repeat;
   border-top-left-radius: 5rem;
   display: flex;
   flex-direction: column;
@@ -774,6 +823,7 @@ ol {
 } */
 /* New media queries break points for tablets */
 /* Use mini reset for general rules or normalizer */
+/* Use font awesome */
 /* Reorder CSS logically with PostCSS plugins */
 /* Change px to rem/em and % on margin/padding for scaling */
 /* Change written number for number on the classes */
