@@ -1,20 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Metas -->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="" />
     <meta name="description" content="" />
-    <meta name="keyword" content="" />
+
+    <!-- Links -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <title>Portfolio Microverse</title>
-    <link rel="stylesheet" href="index.css" type="text/css" />
-    <script src="js/index.js" async defer></script>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+
+    <!-- Tittle -->
+    <title>Portfolio fbclh</title>
+
+    <!-- Script -->
+    <script src="index.js" type="text/javascript" defer></script>
+
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script
@@ -34,36 +41,63 @@
   <body>
     <header>
       <!-- Navigation -->
+
       <nav class="nav">
         <a href="/"
-          ><img class="logo" src="img/fabio-logo.svg" alt="Site logo"
+          ><img class="nav__logo" src="img/fabio-logo.svg" alt="Site logo"
         /></a>
-        <button class="btn menu" type="button">
-          <img src="img/menu.svg" alt="Menu open" />
+        <button class="nav__btn" type="button">
+          <img class="nav__icon-open" src="img/menu.svg" alt="Menu open" />
         </button>
-        <ul class="nav-links">
-          <li><a href="">Portfolio</a></li>
-          <li><a href="">About</a></li>
-          <li><a href="">Contact</a></li>
+        <ul class="nav__links">
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Nav mobile -->
+
+      <nav class="nav__mobile-menu">
+        <button class="nav__btn-mobile" type="button">
+          <img
+            class="nav__icon-close"
+            src="img/menu-close.svg"
+            alt="Menu close"
+          />
+        </button>
+        <ul class="nav__mobile">
+          <li class="nav__mobile-list">
+            <a class="nav__mobile-links" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav__mobile-list">
+            <a class="nav__mobile-links" href="#about">About</a>
+          </li>
+          <li class="nav__mobile-list">
+            <a class="nav__mobile-links" href="#contact">Contact</a>
+          </li>
         </ul>
       </nav>
     </header>
 
     <main>
-      <!-- Headline -->
-      <section class="headline about">
-        <h1 class="header">
-          I’m Fabio<br />Glad to see<br class="br-two" />
+      <!-- Hero -->
+
+      <section class="hero hero--img">
+        <h1 class="hero__header">
+          I’m Fabio<br class="hero__breaker-1" />Glad to see<br
+            class="hero__breaker-2"
+          />
           you!
         </h1>
-        <p class="about-paragraph">
+        <p class="hero__paragraph">
           I’m a software developer! I can help you build a product , feature or
           website Look through some of my work and experience! If you like what
-          you see and have a project you need coded, don’t hestiate to contact
+          you see and have a project you need coded, don’t hesitate to contact
           me.
         </p>
-        <h3 class="links-paragraph">LET’S CONNECT</h3>
-        <ul class="socials">
+        <h3 class="hero__text">LET’S CONNECT</h3>
+        <ul class="hero__socials">
           <li>
             <a href="" target="_blank" rel="">
               <img src="img/icons8-twitter.svg" alt="Twitter icon" />
@@ -92,132 +126,198 @@
         </ul>
       </section>
 
-      <!-- Cards -->
-      <section class="portfolio-cards">
-        <div class="card one">
-          <div class="card-img">
-            <img class="img-mobile" src="img/snapshoot1.png" alt="" />
-            <img class="img-desktop" src="img/snapshot-desktop1.png" alt="" />
+      <!-- Portfolio -->
+
+      <section id="portfolio" class="portfolio">
+        <div class="portfolio__card portfolio__card--one">
+          <div class="portfolio__images">
+            <img
+              class="portfolio__img-mobile"
+              src="img/snapshoot1.png"
+              alt="Portfolio mobile image 1"
+            />
+            <img
+              class="portfolio__img-desktop"
+              src="img/snapshot-desktop1.png"
+              alt="Portfolio desktop image 1"
+            />
           </div>
-          <div class="about-projects-one">
-            <h3 class="card-header">Tonic</h3>
-            <div class="spans">
-              <span class="span-one">CANOPY</span>
-              <img src="img/counter.svg" alt="Circle" />
-              <span class="span-two">Back End Dev</span>
-              <img src="img/counter.svg" alt="Circle" />
-              <span class="span-three">2015</span>
+          <div class="portfolio__project-one">
+            <h3 class="portfolio__header">Tonic</h3>
+            <div class="portfolio__spans">
+              <span class="portfolio__span-one">CANOPY</span>
+              <img
+                class="portfolio__span-img"
+                src="img/counter.svg"
+                alt="Circle division"
+              />
+              <span class="portfolio__span-two">Back End Dev</span>
+              <img
+                class="portfolio__span-img"
+                src="img/counter.svg"
+                alt="Circle division"
+              />
+              <span class="portfolio__span-three">2015</span>
             </div>
-            <p>
+            <p class="portfolio__para">
               A daily selection of privately personalized reads; no accounts or
               sign-ups required.
             </p>
-            <ul class="tech-tag">
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>Javascript</li>
+            <ul class="portfolio__tags">
+              <li class="portfolio__tag-one">HTML</li>
+              <li class="portfolio__tag-two">CSS</li>
+              <li class="portfolio__tag-three">Javascript</li>
             </ul>
-            <button class="btn card" type="button">See Projects</button>
+            <button class="portfolio__btn" type="button">See Projects</button>
           </div>
         </div>
       </section>
-      <section class="portfolio-cards">
-        <div class="card two">
-          <div class="card-img">
-            <img class="img-mobile" src="img/snapshoot2.png" alt="" />
-            <img class="img-desktop" src="img/snapshot-desktop2.png" alt="" />
+      <section class="portfolio">
+        <div class="portfolio__card portfolio__card--two">
+          <div class="portfolio__images">
+            <img
+              class="portfolio__img-mobile"
+              src="img/snapshoot2.png"
+              alt="Portfolio mobile image 2"
+            />
+            <img
+              class="portfolio__img-desktop"
+              src="img/snapshot-desktop2.png"
+              alt="Portfolio desktop image 1"
+            />
           </div>
-          <div class="about-projects-two">
-            <h3 class="card-header">Multi-Post Stories</h3>
-            <div class="spans">
-              <span class="span-one">CANOPY</span>
-              <img src="img/counter.svg" alt="Circle" />
-              <span class="span-two">Back End Dev</span>
-              <img src="img/counter.svg" alt="Circle" />
-              <span class="span-three">2015</span>
+          <div class="portfolio__project-two">
+            <h3 class="portfolio__header">Multi-Post Stories</h3>
+            <div class="portfolio__spans">
+              <span class="portfolio__span-one">CANOPY</span>
+              <img
+                class="portfolio__span-img"
+                src="img/counter.svg"
+                alt="Circle division"
+              />
+              <span class="portfolio__span-two">Back End Dev</span>
+              <img
+                class="portfolio__span-img"
+                src="img/counter.svg"
+                alt="Circle division"
+              />
+              <span class="portfolio__span-three">2015</span>
             </div>
-            <p>
+            <p class="portfolio__para">
               A daily selection of privately personalized reads; no accounts or
               sign-ups required.
             </p>
-            <ul class="tech-tag">
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>Javascript</li>
+            <ul class="portfolio__tags">
+              <li class="portfolio__tag-one">HTML</li>
+              <li class="portfolio__tag-two">CSS</li>
+              <li class="portfolio__tag-three">Javascript</li>
             </ul>
-            <button class="btn card" type="button">See Projects</button>
+            <button class="portfolio__btn" type="button">See Projects</button>
           </div>
         </div>
       </section>
-      <section class="portfolio-cards">
-        <div class="card three">
-          <div class="card-img">
-            <img class="img-mobile" src="img/snapshoot3.png" alt="" />
-            <img class="img-desktop" src="img/snapshot-desktop3.png" alt="" />
+      <section class="portfolio">
+        <div class="portfolio__card portfolio__card--three">
+          <div class="portfolio__images">
+            <img
+              class="portfolio__img-mobile"
+              src="img/snapshoot3.png"
+              alt="Portfolio mobile image 3"
+            />
+            <img
+              class="portfolio__img-desktop"
+              src="img/snapshot-desktop3.png"
+              alt="Portfolio desktop image 3"
+            />
           </div>
-          <div class="about-projects-three">
-            <h3 class="card-header">Tonic</h3>
-            <div class="spans">
-              <span class="span-one">CANOPY</span>
-              <img src="img/counter.svg" alt="Circle" />
-              <span class="span-two">Back End Dev</span>
-              <img src="img/counter.svg" alt="Circle" />
-              <span class="span-three">2015</span>
+          <div class="portfolio__project-three">
+            <h3 class="portfolio__header">Tonic</h3>
+            <div class="portfolio__spans">
+              <span class="portfolio__span-one">CANOPY</span>
+              <img
+                class="portfolio__span-img"
+                src="img/counter.svg"
+                alt="Circle division"
+              />
+              <span class="portfolio__span-two">Back End Dev</span>
+              <img
+                class="portfolio__span-img"
+                src="img/counter.svg"
+                alt="Circle division"
+              />
+              <span class="portfolio__span-three">2015</span>
             </div>
-            <p>
+            <p class="portfolio__para">
               A daily selection of privately personalized reads; no accounts or
               sign-ups required.
             </p>
-            <ul class="tech-tag">
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>Javascript</li>
+            <ul class="portfolio__tags">
+              <li class="portfolio__tag-one">HTML</li>
+              <li class="portfolio__tag-two">CSS</li>
+              <li class="portfolio__tag-three">Javascript</li>
             </ul>
-            <button class="btn card" type="button">See Projects</button>
+            <button class="portfolio__btn" type="button">See Projects</button>
           </div>
         </div>
       </section>
-      <section class="portfolio-cards">
-        <div class="card four">
-          <div class="card-img">
-            <img class="img-mobile" src="img/snapshoot4.png" alt="" />
-            <img class="img-desktop" src="img/snapshot-desktop4.png" alt="" />
+      <section class="portfolio">
+        <div class="portfolio__card portfolio__card--four">
+          <div class="portfolio__images">
+            <img
+              class="portfolio__img-mobile"
+              src="img/snapshoot4.png"
+              alt="Portfolio mobile image 4"
+            />
+            <img
+              class="portfolio__img-desktop"
+              src="img/snapshot-desktop4.png"
+              alt=" Portfolio desktop image 4"
+            />
           </div>
-          <div class="about-projects-four">
-            <h3 class="card-header">Multi-Post Stories</h3>
-            <div class="spans">
-              <span class="span-one">CANOPY</span>
-              <img src="img/counter.svg" alt="Circle" />
-              <span class="span-two">Back End Dev</span>
-              <img src="img/counter.svg" alt="Circle" />
-              <span class="span-three">2015</span>
+          <div class="portfolio__project-four">
+            <h3 class="portfolio__header">Multi-Post Stories</h3>
+            <div class="portfolio__spans">
+              <span class="portfolio__span-one">CANOPY</span>
+              <img
+                class="portfolio__span-img"
+                src="img/counter.svg"
+                alt="Circle division"
+              />
+              <span class="portfolio__span-two">Back End Dev</span>
+              <img
+                class="portfolio__span-img"
+                src="img/counter.svg"
+                alt="Circle division"
+              />
+              <span class="portfolio__span-three">2015</span>
             </div>
-            <p>
+            <p class="portfolio__para">
               A daily selection of privately personalized reads; no accounts or
               sign-ups required.
             </p>
-            <ul class="tech-tag">
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>Javascript</li>
+            <ul class="portfolio__tags">
+              <li class="portfolio__tag-one">HTML</li>
+              <li class="portfolio__tag-two">CSS</li>
+              <li class="portfolio__tag-three">Javascript</li>
             </ul>
-            <button class="btn card" type="button">See Projects</button>
+            <button class="portfolio__btn" type="button">See Projects</button>
           </div>
         </div>
       </section>
 
       <!-- About -->
-      <section class="about about-me">
-        <div class="test">
-          <h1 class="header">About<br />Myself</h1>
-          <p class="about-paragraph">
+
+      <section id="about" class="about">
+        <div class="about__container">
+          <h2 class="about__header">About<br />Myself</h2>
+          <p class="about__paragraph">
             I’m a software developer! I can help you build a product , feature
             or website Look through some of my work and experience! If you like
-            what you see and have a project you need coded, don’t hestiate to
+            what you see and have a project you need coded, don’t hesitate to
             contact me.
           </p>
-          <h3 class="links-paragraph">LET’S CONNECT</h3>
-          <ul class="socials">
+          <h3 class="about__text">LET’S CONNECT</h3>
+          <ul class="about__socials">
             <li>
               <a href="" target="_blank" rel="">
                 <img src="img/icons8-twitter.svg" alt="Twitter icon" />
@@ -244,57 +344,59 @@
               </a>
             </li>
           </ul>
-          <div><button class="btn me" type="button">Get my resume</button></div>
+          <button class="about__btn" type="button">Get my resume</button>
+          <!-- Removed div container here -->
         </div>
-        <ul class="extra-info">
-          <li class="languages">
-            <p>Languages</p>
-            <img src="img/arrow-open.svg" alt="" />
+        <ul class="about__info">
+          <li class="about__languages">
+            <p class="about__para-info">Languages</p>
+            <img class="about__img" src="img/arrow-open.svg" alt="Arrow open" />
           </li>
-          <li class="tech">
-            <div class="lang-paragraph one">
-              <img src="img/js.svg" alt="" />
-              <p>JavaScript</p>
+          <li class="about__tech">
+            <div class="about__lang about__lang--one">
+              <img class="about__img" src="img/js.svg" alt="JavaScript" />
+              <p class="about__para-tech">JavaScript</p>
             </div>
-            <div class="lang-paragraph two">
-              <img src="img/html.svg" alt="" />
-              <p>HTML</p>
+            <div class="about__lang about__lang--two">
+              <img class="about__img" src="img/html.svg" alt="HTML" />
+              <p class="about__para-tech">HTML</p>
             </div>
-            <div class="lang-paragraph three">
-              <img src="img/css.svg" alt="" />
-              <p>CSS</p>
+            <div class="about__lang about__lang--three">
+              <img class="about__img" src="img/css.svg" alt="CSS" />
+              <p class="about__para-tech">CSS</p>
             </div>
           </li>
-          <li class="frameworks">
-            <p>Frameworks</p>
-            <img src="img/arrow-closed.svg" alt="" />
+          <li class="about__frameworks">
+            <p class="about__para-info">Frameworks</p>
+            <img src="img/arrow-closed.svg" alt="Arrow closed" />
           </li>
-          <li><hr /></li>
-          <li class="skills">
-            <p>Skills</p>
-            <img src="img/arrow-closed.svg" alt="" />
+          <li><hr class="about__hr" /></li>
+          <li class="about__skills">
+            <p class="about__para-info">Skills</p>
+            <img src="img/arrow-closed.svg" alt="Arrow closed" />
           </li>
-          <li><hr /></li>
+          <li><hr class="about__hr" /></li>
         </ul>
       </section>
 
-      <!-- Contact me -->
-      <section class="contact">
-        <h2 class="contact-header">Contact me</h2>
-        <p class="contact-info">
+      <!-- Contact -->
+
+      <section id="contact" class="contact contact--img">
+        <h2 class="contact__header">Contact me</h2>
+        <p class="contact__info">
           If you have an application you are interested in developing, a feature
           that you need built or a project that needs coding. I’d love to help
           with it
         </p>
         <form
+          class="contact__form"
           action="https://formspree.io/f/xnqwaoqd"
           method="post"
-          class="contact-form"
         >
           <div>
             <label for="name"></label>
             <input
-              class="name"
+              class="contact__input"
               type="text"
               name="name"
               id="name"
@@ -306,7 +408,7 @@
           <div>
             <label for="email"></label>
             <input
-              class="name"
+              class="contact__input"
               type="email"
               name="email"
               id="email"
@@ -317,7 +419,7 @@
           <div>
             <label for="message"></label>
             <textarea
-              class="message"
+              class="contact__textarea"
               name="message"
               id="message"
               placeholder="Write your message here"
@@ -325,8 +427,8 @@
               required
             ></textarea>
           </div>
-          <div class="btn-container">
-            <button type="submit" class="btn">Get in touch</button>
+          <div class="contact__container">
+            <button class="contact__btn" type="submit">Get in touch</button>
           </div>
         </form>
       </section>
