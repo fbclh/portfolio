@@ -78,6 +78,7 @@ ol {
   z-index: 100;
   transition: 500ms ease-in;
   /* filter: blur(1px); */
+  backdrop-filter: blur(10px);
 }
 
 .nav__mobile-list {
