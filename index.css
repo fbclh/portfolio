@@ -56,7 +56,7 @@ ol {
 
 .test {
   /* position: absolute; */
-  margin-top: -100vh;
+  /* margin-top: -100vh; */
   /* height: -100vh; */
   /* display: none; */
   /* margin-left: -100%; */
@@ -79,6 +79,16 @@ ol {
   align-items: flex-end; 
   /* height: 100vh; */
   /* overflow: hidden; */
+
+
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(96, 112, 255, 0.97);
+  top: 0;
+  left: -110%;
+  z-index: 100;
+  transition: 500ms ease-in;
 }
 
 .nav__mobile-links {
