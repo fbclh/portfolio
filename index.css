@@ -40,10 +40,10 @@ ol {
 }
 
 .nav__logo {
+  animation-duration: 2s;
+  animation-name: rotate-360;
   height: 2.5rem;
   margin-top: 0.25rem;
-  animation-name: rotate-360;
-  animation-duration: 2s;
 }
 
 @keyframes rotate-360 {
@@ -55,20 +55,20 @@ ol {
 /* Nav mobile START */
 
 .nav__mobile-menu {
+  align-items: flex-end;
+  backdrop-filter: blur(0.25rem);
   background: #6070ff;
+  background-color: rgba(96, 112, 255, 0.97);
   color: white;
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
-  position: fixed;
-  width: 100%;
   height: 100vh;
-  background-color: rgba(96, 112, 255, 0.97);
-  top: 0;
   left: -110%;
-  z-index: 100;
+  position: fixed;
+  top: 0;
   transition: 500ms ease-in;
-  backdrop-filter: blur(0.25rem);
+  width: 100%;
+  z-index: 100;
 }
 
 .nav__mobile-list {
@@ -80,20 +80,20 @@ ol {
 }
 
 .nav__btn-mobile {
-  margin-right: 1.5rem;
-  margin-top: 1.5rem;
   background: none;
   border: none;
   cursor: pointer;
+  margin-right: 1.5rem;
+  margin-top: 1.5rem;
 }
 
 .nav__mobile {
   align-self: flex-start;
-  padding-left: 1.5rem;
+  font-size: 32px;
   font-style: normal;
   font-weight: 600;
-  font-size: 32px;
   line-height: 44px;
+  padding-left: 1.5rem;
 }
 
 /* Nav mobile END */
@@ -161,8 +161,8 @@ ol {
   line-height: 3.25rem;
   margin: 0;
   padding: 1.5rem;
-  padding-top: 12px;
   padding-bottom: 0;
+  padding-top: 12px;
 }
 
 .hero__paragraph {
@@ -464,8 +464,8 @@ ol {
   line-height: 3.25rem;
   margin: 0;
   padding: 1.5rem;
-  padding-top: 12px;
   padding-bottom: 0;
+  padding-top: 12px;
 }
 
 .about__paragraph {
@@ -560,8 +560,6 @@ ol {
   padding: 0.5rem 0;
 }
 
-.about__para-info,
-.about__para-info,
 .about__para-info {
   font-size: 1.25rem;
   font-weight: 500;
@@ -607,9 +605,9 @@ ol {
     justify-content: flex-start;
     margin-top: 142px;
     padding-bottom: 250px;
-    padding-top: 125px;
     padding-left: 142px;
     padding-right: 142px;
+    padding-top: 125px;
   }
 
   .about__container {
@@ -634,9 +632,6 @@ ol {
     padding-left: 1rem;
   }
 
-  .about__lang--one {
-  }
-
   .about__lang--two,
   .about__lang--three {
     margin-left: 0;
@@ -658,7 +653,8 @@ ol {
 
 .contact--img {
   align-items: center;
-  background: #6070ff url('img/contact form shapes-mobile@1x.svg') top 3rem
+  background:
+    #6070ff url('img/contact form shapes-mobile@1x.svg') top 3rem
     right no-repeat;
   border-top-left-radius: 5rem;
   display: flex;
@@ -782,7 +778,8 @@ ol {
 @media (min-width: 992px) {
   .contact--img {
     align-items: center;
-    background: #6070ff url('img/contact form background shapes@2x.svg') top
+    background:
+      #6070ff url('img/contact form background shapes@2x.svg') top
       3rem right 5rem no-repeat;
     border-top-left-radius: 5rem;
     display: flex;
@@ -800,34 +797,3 @@ ol {
     margin-bottom: 50px;
   }
 }
-
-/*
-  ========================================
-  To Dos
-  ========================================
-*/
-
-/* Add href to HTML links */
-/* Add Hotjar */
-/* Create boilerplate model from this */
-/* Use variables for colors etc... As bellow: */
-/* :root { 
-  --first-color: #36b37e;
-  --second-color: #172b4d;
-  --third-color: #c5e9da;
-  --primary-btn-hover: #36b37f;
-  --primary-btn-active: #008552;
-} */
-/* New media queries break points for tablets */
-/* Use mini reset for general rules or normalizer */
-/* Use font awesome */
-/* Reorder CSS logically with PostCSS plugins */
-/* Change px to rem/em and % on margin/padding for scaling */
-/* Change written number for number on the classes */
-/* Remove repetition on: .portfolio__card--one */
-/* Repetition on .about__para-info ? */
-/* Write shorthand for margin and padding */
-/* Unnecessary margin on .about__languages ? */
-/* Remove short hand property on .contact--img background */
-/* Add form autofocus */
-/* Redesign when project finish */
