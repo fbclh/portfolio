@@ -142,8 +142,8 @@ ol {
 .hero {
   display: flex;
   flex-direction: column;
-  padding-bottom: 6rem; /* Use % */
-  padding-top: 4.5rem; /* Use % */
+  padding-bottom: 6rem; 
+  padding-top: 4.5rem; 
 }
 
 .hero--img {
@@ -711,6 +711,12 @@ ol {
   outline: none;
   padding: 0.938rem;
   width: 90vw;
+}
+
+.contact__container {
+  display: flex;
+  justify-content: center;
+  margin: 0;
 }
 
 .contact__btn {
