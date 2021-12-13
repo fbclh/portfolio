@@ -40,6 +40,7 @@
   <body>
     <header>
       <!-- Navigation -->
+
       <nav class="nav">
         <a href="/"
           ><img class="nav__logo" src="img/fabio-logo.svg" alt="Site logo"
@@ -53,10 +54,34 @@
           <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
+      
+      <!-- Nav mobile -->
+
+      <nav class="nav__mobile-menu">
+        <button class="nav__btn-mobile" type="button">
+          <img
+            class="nav__icon-close"
+            src="img/menu-close.svg"
+            alt="Menu close"
+          />
+        </button>
+        <ul class="nav__mobile">
+          <li class="nav__mobile-list">
+            <a class="nav__mobile-links" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav__mobile-list">
+            <a class="nav__mobile-links" href="#about">About</a>
+          </li>
+          <li class="nav__mobile-list">
+            <a class="nav__mobile-links" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
     </header>
 
     <main>
       <!-- Hero -->
+
       <section class="hero hero--img">
         <h1 class="hero__header">
           I’m Fabio<br class="hero__breaker-1" />Glad to see<br
@@ -101,6 +126,7 @@
       </section>
 
       <!-- Portfolio -->
+
       <section id="portfolio" class="portfolio">
         <div class="portfolio__card portfolio__card--one">
           <div class="portfolio__images">
@@ -279,6 +305,7 @@
       </section>
 
       <!-- About -->
+
       <section id="about" class="about">
         <div class="about__container">
           <h2 class="about__header">About<br />Myself</h2>
@@ -352,6 +379,7 @@
       </section>
 
       <!-- Contact -->
+
       <section id="contact" class="contact contact--img">
         <h2 class="contact__header">Contact me</h2>
         <p class="contact__info">
