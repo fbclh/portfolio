@@ -364,6 +364,12 @@ ol {
   padding: 0.75rem;
 }
 
+/* MODAL TEST STARTS  */
+
+
+
+/* MODAL TEST ENDS */
+
 /* Portfolio | media queries for desktop */
 
 @media (min-width: 992px) {
@@ -653,8 +659,7 @@ ol {
 
 .contact--img {
   align-items: center;
-  background:
-    #6070ff url('img/contact form shapes-mobile@1x.svg') top 3rem
+  background: #6070ff url('img/contact form shapes-mobile@1x.svg') top 3rem
     right no-repeat;
   border-top-left-radius: 5rem;
   display: flex;
@@ -784,8 +789,7 @@ ol {
 @media (min-width: 992px) {
   .contact--img {
     align-items: center;
-    background:
-      #6070ff url('img/contact form background shapes@2x.svg') top
+    background: #6070ff url('img/contact form background shapes@2x.svg') top
       3rem right 5rem no-repeat;
     border-top-left-radius: 5rem;
     display: flex;
