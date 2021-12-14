@@ -19,6 +19,9 @@
     <!-- Tittle -->
     <title>Portfolio fbclh</title>
 
+    <!-- Font Awesome Icons -->
+    <script src="https://kit.fontawesome.com/2f238780d4.js" crossorigin="anonymous"></script>
+
     <!-- Script -->
     <script src="index.js" type="text/javascript" defer></script>
 
@@ -55,7 +58,7 @@
         </ul>
       </nav>
 
-      <!-- Nav mobile -->
+      <!-- Navigation mobile -->
 
       <nav class="nav__mobile-menu">
         <button class="nav__btn-mobile" type="button">
@@ -304,6 +307,60 @@
         </div>
       </section>
 
+      <!-- Portfolio popup  -->
+
+      <section class="popup">
+        <div class=“popup__window”>
+          <div class=“popup__header”>
+            <h2 class=“popup__title”></h2>
+            <i class="popup__icon-close" fas fa-times”></i>
+          </div>
+          <ul class="popup__list">
+            <li>
+              <h3 class=“popup__company”></h3>
+            </li>
+            <li class=“popup__circle”></li>
+            <li>
+              <h4 class=“popup__role”></h4>
+            </li>
+            <li class="popup__circle"></li>
+            <li>
+              <h4 class=“popup__year”></h4>
+            </li>
+          </ul>
+          <img
+            class=“popup__img”
+            src=“#”
+            alt=""
+          />
+          <div class=“popup__info”>
+            <p class=“popup__description”></p>
+            <div class=“popup__container”>
+              <ul class="popup__technologies"></ul>
+              <div class=“popup__line”></div>
+              <div class="popup__container-btn">
+                <a
+                  href=“#”
+                  class="popup__btn modal__btn--live"
+                  target=“_blank”
+                  >See live<i
+                    class="popup__btn-icon"
+                    fas
+                    fa-external-link-alt”
+                  ></i
+                ></a>
+                <a
+                  href=“#”
+                  class="popup__btn popup__btn--source"
+                  target=“_blank”
+                  >See source<i class="popup__btn-icon" fab fa-github”></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <!-- About -->
 
       <section id="about" class="about">
@@ -344,7 +401,6 @@
             </li>
           </ul>
           <button class="about__btn" type="button">Get my resume</button>
-          <!-- Removed div container here -->
         </div>
         <ul class="about__info">
           <li class="about__languages">
@@ -431,44 +487,6 @@
           </div>
         </form>
       </section>
-
-      <!-- TEST START -->
-      <section id=“modal” class=“modal”>
-        <div class=“modal__window”>
-          <div class=“modal__header”>
-            <h2 class=“modal__title”></h2>
-            <i class=“modal__icon-close fas fa-times”></i>
-          </div>
-          <ul class=“modal__list”>
-            <li>
-              <h3 class=“modal__company”></h3>
-            </li>
-            <li class=“circle”></li>
-            <li>
-              <h4 class=“modal__role”></h4>
-            </li>
-            <li class=“circle”></li>
-            <li>
-              <h4 class=“modal__year”></h4>
-            </li>
-          </ul>
-          <img class=“modal__img” src=“#” alt=“Work preview for project Uber Navigation” />
-          <div class=“modal__info”>
-            <p class=“modal__desc”></p>
-            <div class=“modal__tags-buttons-container”>
-              <ul class=“modal__tech”></ul>
-              <div class=“modal__line”></div>
-              <div class=“modal__buttons-container”>
-                <a href=“#” class=“modal__button modal__button--see-live” target=“_blank”>See live<i class=“modal__icon-button fas fa-external-link-alt”></i></a>
-                <a href=“#” class=“modal__button modal__button--see-src” target=“_blank”>See source<i class=“modal__icon-button fab fa-github”></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> 
-      
-
-      <!-- TEST END -->
     </main>
   </body>
 </html>

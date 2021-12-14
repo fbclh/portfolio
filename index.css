@@ -52,7 +52,7 @@ ol {
   }
 }
 
-/* Nav mobile START */
+/* Navigation mobile */
 
 .nav__mobile-menu {
   align-items: flex-end;
@@ -63,7 +63,7 @@ ol {
   display: flex;
   flex-direction: column;
   height: 100vh;
-  left: -110%;
+  left: -100%;
   position: fixed;
   top: 0;
   transition: 500ms ease-in;
@@ -95,8 +95,6 @@ ol {
   line-height: 44px;
   padding-left: 1.5rem;
 }
-
-/* Nav mobile END */
 
 /* Navigation | media queries for desktop */
 
@@ -364,11 +362,8 @@ ol {
   padding: 0.75rem;
 }
 
-/* MODAL TEST STARTS  */
+/* Portfolio popup  */
 
-
-
-/* MODAL TEST ENDS */
 
 /* Portfolio | media queries for desktop */
 

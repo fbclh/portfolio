@@ -1,8 +1,8 @@
 // Mobile menu (Dynamic HTML)
 
 const openIcon = document.querySelector('.nav__icon-open');
-const mobileMenu = document.querySelector('.nav__mobile-menu');
 const closeIcon = document.querySelector('.nav__icon-close');
+const mobileMenu = document.querySelector('.nav__mobile-menu');
 const menuLinks = document.querySelectorAll('.nav__mobile');
 
 closeIcon.addEventListener('click', () => {
@@ -21,20 +21,58 @@ menuLinks.forEach((el) => {
 
 // Popup window (JS objects)
 
-// Objects/Array
-// const projectOne = {
-//   name: 'Tonic',
-//   description:
-//     'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-//   image: '',
-//   technologies: '',
-//   live: '',
-//   source: '',
-// };
+const projects = [
+  {
+    title: 'Tonic',
+    company: 'Canopy',
+    role: 'Back End Dev',
+    year: '2015',
+    image: '',
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam architecto sint, quae sit nostrum accusamus magnam blanditiis iusto in ducimus eligendi voluptatibus commodi, ipsum dolor sit amet consectetur adipisicing elit. Veniam architecto sint, quae sit nostrum accusamus magnam blanditiis iusto in ducimus eligendi voluptatibus commodi.',
+    technologies: ['html', 'css', 'javaScript'],
+    live: '',
+    source: '',
+  },
+  {
+    title: 'Tonic',
+    company: 'Canopy',
+    role: 'Back End Dev',
+    year: '2015',
+    image: '',
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam architecto sint, quae sit nostrum accusamus magnam blanditiis iusto in ducimus eligendi voluptatibus commodi, ipsum dolor sit amet consectetur adipisicing elit. Veniam architecto sint, quae sit nostrum accusamus magnam blanditiis iusto in ducimus eligendi voluptatibus commodi.',
+    technologies: ['html', 'css', 'javaScript'],
+    live: '',
+    source: '',
+  },
 
-//
+  {
+    title: 'Tonic',
+    company: 'Canopy',
+    role: 'Back End Dev',
+    year: '2015',
+    image: '',
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam architecto sint, quae sit nostrum accusamus magnam blanditiis iusto in ducimus eligendi voluptatibus commodi, ipsum dolor sit amet consectetur adipisicing elit. Veniam architecto sint, quae sit nostrum accusamus magnam blanditiis iusto in ducimus eligendi voluptatibus commodi.',
+    technologies: ['html', 'css', 'javaScript'],
+    live: '',
+    source: '',
+  },
 
-// Information for Modals through objects
+  {
+    title: 'Tonic',
+    company: 'Canopy',
+    role: 'Back End Dev',
+    year: '2015',
+    image: '',
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam architecto sint, quae sit nostrum accusamus magnam blanditiis iusto in ducimus eligendi voluptatibus commodi, ipsum dolor sit amet consectetur adipisicing elit. Veniam architecto sint, quae sit nostrum accusamus magnam blanditiis iusto in ducimus eligendi voluptatibus commodi.',
+    technologies: ['html', 'css', 'javaScript'],
+    live: '',
+    source: '',
+  },
+];
 
 //
 
