@@ -74,6 +74,20 @@ const projects = [
   },
 ];
 
+const btnOpen = document.querySelectorAll(‘.portfolio__btn’); // Removed Array
+const btnClose = document.querySelector(‘.popup__icon-close’);
+const popup = document.querySelector(‘.popup’);
+const popupWindow = document.querySelector(‘.popup__window’);
+const popupTitle = document.querySelector(‘.popup__title’);
+const popupCompany = document.querySelector(‘.popup__company’);
+const popupRole = document.querySelector(‘.popup__role’);
+const popupYear = document.querySelector(‘.popup__year’);
+const popupImage = document.querySelector(‘.popup__img’);
+const popupDescription = document.querySelector(‘.popup__description’);
+const popupTechnologies = document.querySelector(‘.popup__technologies’);
+const popupLive = document.querySelector(‘.popup__btn--live’);
+const popupSource = document.querySelector(‘.popup__btn--source’);
+
 //
 
 // You should implement the following interactions:
