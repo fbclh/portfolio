@@ -319,6 +319,7 @@ ol {
   border-radius: 0.5rem;
   box-sizing: border-box;
   color: #396df2;
+  cursor: pointer;
   font-size: 1.063rem;
   letter-spacing: 0.03em;
   margin: 1.5rem 0;
@@ -361,9 +362,6 @@ ol {
   margin: 1.5rem 0;
   padding: 0.75rem;
 }
-
-/* Portfolio popup  */
-
 
 /* Portfolio | media queries for desktop */
 

@@ -20,7 +20,10 @@
     <title>Portfolio fbclh</title>
 
     <!-- Font Awesome Icons -->
-    <script src="https://kit.fontawesome.com/2f238780d4.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/2f238780d4.js"
+      crossorigin="anonymous"
+    ></script>
 
     <!-- Script -->
     <script src="index.js" type="text/javascript" defer></script>
@@ -310,50 +313,48 @@
       <!-- Portfolio popup  -->
 
       <section class="popup">
-        <div class=“popup__window”>
-          <div class=“popup__header”>
-            <h2 class=“popup__title”></h2>
-            <i class="popup__icon-close" fas fa-times”></i>
+        <div class="popup__window">
+          <div class="popup__heading">
+            <h2 class="popup__title"></h2>
+            <i class="popup__close fas fa-times"></i>
           </div>
           <ul class="popup__list">
-            <li>
-              <h3 class=“popup__company”></h3>
+            <li class="popup__item">
+              <h3 class="popup__company popup__company--header"></h3>
             </li>
-            <li class=“popup__circle”></li>
-            <li>
-              <h4 class=“popup__role”></h4>
+            <li class="circle"></li>
+            <li class="popup__item">
+              <h4 class="popup__role popup__role--header"></h4>
             </li>
-            <li class="popup__circle"></li>
-            <li>
-              <h4 class=“popup__year”></h4>
+            <li class="circle"></li>
+            <li class="popup__item">
+              <h4 class="popup__year popup__year--header"></h4>
             </li>
           </ul>
           <img
-            class=“popup__img”
-            src=“#”
+            class="popup__image"
+            src="#"
             alt=""
           />
-          <div class=“popup__info”>
-            <p class=“popup__description”></p>
-            <div class=“popup__container”>
+          <div class="popup__info">
+            <p class="popup__description"></p>
+            <div class="popup__tags-container"> 
               <ul class="popup__technologies"></ul>
-              <div class=“popup__line”></div>
-              <div class="popup__container-btn">
+              <div class="popup__line"></div>
+              <div class="popup__btn-container">
                 <a
-                  href=“#”
-                  class="popup__btn modal__btn--live"
-                  target=“_blank”
+                  href="#"
+                  class="popup__btn popup__btn--live"
+                  target="_blank"
                   >See live<i
-                    class="popup__btn-icon"
-                    fas
-                    fa-external-link-alt”
+                    class="popup__btn-icon fas fa-external-link-alt"
                   ></i
                 ></a>
                 <a
-                  href=“#”
+                  href="#"
                   class="popup__btn popup__btn--source"
-                  target=“_blank”
-                  >See source<i class="popup__btn-icon" fab fa-github”></i
+                  target="_blank"
+                  >See source<i class="popup__btn-icon fab fa-github"></i
                 ></a>
               </div>
             </div>
@@ -488,5 +489,6 @@
         </form>
       </section>
     </main>
+    <script src="index.js" type="text/javascript" defer></script>
   </body>
 </html>
