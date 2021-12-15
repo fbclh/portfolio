@@ -128,7 +128,9 @@ const form = document.querySelector('.contact__form');
 const email = document.querySelector('.contact__input--email');
 const error = document.querySelector('.form__error');
 
-const isUppercase = (string) => string === string.toLowerCase(); 
+const isUppercase = (string) => {
+  return string === string.toLowerCase(); 
+}
 
 form.addEventListener('submit', (event) => {
   if (isUppercase(email.value)) {
