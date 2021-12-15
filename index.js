@@ -88,13 +88,11 @@ const popupSource = document.querySelector('.popup__btn--source');
 
 const openPopup = (project) => {
   popupTitle.textContent = projectsObj[btnOpen.indexOf(project.target)].title;
-  popupCompany.textContent =
-    projectsObj[btnOpen.indexOf(project.target)].company;
+  popupCompany.textContent = projectsObj[btnOpen.indexOf(project.target)].company;
   popupRole.textContent = projectsObj[btnOpen.indexOf(project.target)].role;
   popupYear.textContent = projectsObj[btnOpen.indexOf(project.target)].year;
   popupImage.src = projectsObj[btnOpen.indexOf(project.target)].image;
-  popupDescription.textContent =
-    projectsObj[btnOpen.indexOf(project.target)].description;
+  popupDescription.textContent = projectsObj[btnOpen.indexOf(project.target)].description;
   popupTechnologies.innerHTML = '';
 
   for (
@@ -130,9 +128,7 @@ const form = document.querySelector('.contact__form');
 const email = document.querySelector('.contact__input--email');
 const error = document.querySelector('.form__error');
 
-const isUppercase = (string) => {
-  return string === string.toLowerCase();
-};
+const isUppercase = (string) => string === string.toLowerCase();
 
 form.addEventListener('submit', (event) => {
   if (isUppercase(email.value)) {
