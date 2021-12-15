@@ -123,5 +123,8 @@ btnOpen.forEach((el) => {
 btnClose.addEventListener('click', closePopup);
 
 // Validate contact form (Client side validation)
+const form = document.querySelector(‘.contact’);
+const email = document.querySelector(‘.contact__input’);
+const error = document.querySelector(‘.form__error’);
 
 // Preserve data in the browser (Local storage)
