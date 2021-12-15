@@ -437,11 +437,11 @@
           that you need built or a project that needs coding. I’d love to help
           with it
         </p>
-        <!-- <form
+        <form
           class="contact__form"
           action="https://formspree.io/f/xnqwaoqd"
-          method="post" 
-        > -->
+          method="post"
+        >
           <div>
             <label for="name"></label>
             <input
@@ -457,21 +457,24 @@
           <div>
             <label for="email"></label>
             <input
-              class="contact__input"
+              class="contact__input contact__input--email"
               type="email"
               name="email"
+              id="email"
               placeholder="Enter your email"
               required
             />
           </div>
-          <!--  -->
-          <div class="form__error form__error--message">
-            <p>
-              <i class="fas fa-exclamation-triangle"></i>Email must be written
-              in lowercase.
+
+          <!-- Form validation  -->
+
+          <div class="form__error">
+            <p class="form__error-para">
+              <i class="form__error-icon fas fa-exclamation-triangle"></i>Email
+              must be written in lowercase.
             </p>
           </div>
-          <!--  -->
+
           <div>
             <label for="message"></label>
             <textarea

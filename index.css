@@ -858,7 +858,8 @@ ol {
 
 .contact--img {
   align-items: center;
-  background: #6070ff url('img/contact form shapes-mobile@1x.svg') top 3rem right no-repeat;
+  background: #6070ff url('img/contact form shapes-mobile@1x.svg') top 3rem
+    right no-repeat;
   border-top-left-radius: 5rem;
   display: flex;
   flex-direction: column;
@@ -987,7 +988,8 @@ ol {
 @media (min-width: 992px) {
   .contact--img {
     align-items: center;
-    background: #6070ff url('img/contact form background shapes@2x.svg') top 3rem right 5rem no-repeat;
+    background: #6070ff url('img/contact form background shapes@2x.svg') top
+      3rem right 5rem no-repeat;
     border-top-left-radius: 5rem;
     display: flex;
     flex-direction: column;
@@ -1007,9 +1009,32 @@ ol {
 
 /* Contact | Validate contact form */
 
+.form__error {
+  position: absolute;
+  opacity: 0;
+  margin-top: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
 .form__error--message {
   position: relative;
-  /* top: -10px; */
-  visibility: visible;
-  /* opacity: 1; */
+  display: flex;
+  justify-content: center;
+  /* visibility: visible; */
+  opacity: 1;
+}
+
+.form__error-icon {
+  margin-right: 0.5rem;
+  color: red;
+}
+
+.form__error-para {
+  margin: inherit;
+  font-size: 1rem;
+  padding: 0.5rem 0.75rem;
+  background: rgb(3, 19, 48, 0.7);
+  border-radius: 0.5rem;
+  text-align: center;
+  color: #fff;
 }
