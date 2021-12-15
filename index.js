@@ -19,6 +19,111 @@ menuLinks.forEach((el) => {
   });
 });
 
+// Popup window (JS objects)
+
+const projectsObj = [
+  {
+    title: 'Tonic',
+    company: 'Canopy',
+    role: 'Back End Dev',
+    year: '2015',
+    image: 'img/popup-snapshoot.png',
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam architecto sint, quae sit nostrum accusamus magnam blanditiis iusto in ducimus eligendi voluptatibus commodi.',
+    technologies: ['html', 'css', 'javascript'],
+    live: '',
+    source: '',
+  },
+  {
+    title: 'Tonic',
+    company: 'Canopy',
+    role: 'Back End Dev',
+    year: '2015',
+    image: 'img/popup-snapshoot.png',
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam architecto sint, quae sit nostrum accusamus magnam blanditiis iusto in ducimus eligendi voluptatibus commodi.',
+    technologies: ['html', 'css', 'javascript'],
+    live: '',
+    source: '',
+  },
+  {
+    title: 'Tonic',
+    company: 'Canopy',
+    role: 'Back End Dev',
+    year: '2015',
+    image: 'img/popup-snapshoot.png',
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam architecto sint, quae sit nostrum accusamus magnam blanditiis iusto in ducimus eligendi voluptatibus commodi.',
+    technologies: ['html', 'css', 'javascript'],
+    live: '',
+    source: '',
+  },
+  {
+    title: 'Tonic',
+    company: 'Canopy',
+    role: 'Back End Dev',
+    year: '2015',
+    image: 'img/popup-snapshoot.png',
+    description:
+      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam architecto sint, quae sit nostrum accusamus magnam blanditiis iusto in ducimus eligendi voluptatibus commodi.',
+    technologies: ['html', 'css', 'javascript'],
+    live: '',
+    source: '',
+  },
+];
+
+const btnOpen = Array.from(document.querySelectorAll('.portfolio__btn'));
+const btnClose = document.querySelector('.popup__close');
+const popup = document.querySelector('.popup');
+const popupWindow = document.querySelector('.popup__window');
+const popupTitle = document.querySelector('.popup__title');
+const popupCompany = document.querySelector('.popup__company');
+const popupRole = document.querySelector('.popup__role');
+const popupYear = document.querySelector('.popup__year');
+const popupImage = document.querySelector('.popup__image');
+const popupDescription = document.querySelector('.popup__description');
+const popupTechnologies = document.querySelector('.popup__technologies');
+const popupLive = document.querySelector('.popup__btn--live');
+const popupSource = document.querySelector('.popup__btn--source');
+
+const openPopup = (project) => {
+  popupTitle.textContent = projectsObj[btnOpen.indexOf(project.target)].title;
+  popupCompany.textContent =
+    projectsObj[btnOpen.indexOf(project.target)].company;
+  popupRole.textContent = projectsObj[btnOpen.indexOf(project.target)].role;
+  popupYear.textContent = projectsObj[btnOpen.indexOf(project.target)].year;
+  popupImage.src = projectsObj[btnOpen.indexOf(project.target)].image;
+  popupDescription.textContent =
+    projectsObj[btnOpen.indexOf(project.target)].description;
+  popupTechnologies.innerHTML = '';
+
+  for (
+    let i = 0;
+    i < projectsObj[btnOpen.indexOf(project.target)].technologies.length;
+    i += 1
+  ) {
+    const li = document.createElement('li');
+    li.innerHTML = `<li class="popup__tag">${
+      projectsObj[btnOpen.indexOf(project.target)].technologies[i]
+    }</li>`;
+    popupTechnologies.appendChild(li);
+  }
+
+  popupLive.href = projectsObj[btnOpen.indexOf(project.target)].live;
+  popupSource.href = projectsObj[btnOpen.indexOf(project.target)].source;
+
+  popup.classList.toggle('popup--active');
+};
+
+const closePopup = () => {
+  popup.classList.toggle('popup--active'); // Class in CSS only (visibility)
+};
+
+btnOpen.forEach((el) => {
+  el.addEventListener('click', openPopup);
+});
+btnClose.addEventListener('click', closePopup);
+
 // Validate contact form (Client side validation)
 
 // Preserve data in the browser (Local storage)
