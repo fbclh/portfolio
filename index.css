@@ -858,8 +858,7 @@ ol {
 
 .contact--img {
   align-items: center;
-  background: #6070ff url('img/contact form shapes-mobile@1x.svg') top 3rem
-    right no-repeat;
+  background: #6070ff url('img/contact form shapes-mobile@1x.svg') top 3rem right no-repeat;
   border-top-left-radius: 5rem;
   display: flex;
   flex-direction: column;
@@ -988,8 +987,7 @@ ol {
 @media (min-width: 992px) {
   .contact--img {
     align-items: center;
-    background: #6070ff url('img/contact form background shapes@2x.svg') top
-      3rem right 5rem no-repeat;
+    background: #6070ff url('img/contact form background shapes@2x.svg') top 3rem right 5rem no-repeat;
     border-top-left-radius: 5rem;
     display: flex;
     flex-direction: column;

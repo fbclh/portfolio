@@ -75,7 +75,7 @@ const projectsObj = [
 const btnOpen = Array.from(document.querySelectorAll('.portfolio__btn'));
 const btnClose = document.querySelector('.popup__close');
 const popup = document.querySelector('.popup');
-const popupWindow = document.querySelector('.popup__window');
+// const popupWindow = document.querySelector('.popup__window');
 const popupTitle = document.querySelector('.popup__title');
 const popupCompany = document.querySelector('.popup__company');
 const popupRole = document.querySelector('.popup__role');
@@ -88,13 +88,11 @@ const popupSource = document.querySelector('.popup__btn--source');
 
 const openPopup = (project) => {
   popupTitle.textContent = projectsObj[btnOpen.indexOf(project.target)].title;
-  popupCompany.textContent =
-    projectsObj[btnOpen.indexOf(project.target)].company;
+  popupCompany.textContent = projectsObj[btnOpen.indexOf(project.target)].company;
   popupRole.textContent = projectsObj[btnOpen.indexOf(project.target)].role;
   popupYear.textContent = projectsObj[btnOpen.indexOf(project.target)].year;
   popupImage.src = projectsObj[btnOpen.indexOf(project.target)].image;
-  popupDescription.textContent =
-    projectsObj[btnOpen.indexOf(project.target)].description;
+  popupDescription.textContent = projectsObj[btnOpen.indexOf(project.target)].description;
   popupTechnologies.innerHTML = '';
 
   for (
