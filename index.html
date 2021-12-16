@@ -331,21 +331,14 @@
               <h4 class="popup__year popup__year--header"></h4>
             </li>
           </ul>
-          <img
-            class="popup__image"
-            src="#"
-            alt=""
-          />
+          <img class="popup__image" src="#" alt="" />
           <div class="popup__info">
             <p class="popup__description"></p>
-            <div class="popup__tags-container"> 
+            <div class="popup__tags-container">
               <ul class="popup__technologies"></ul>
               <div class="popup__line"></div>
               <div class="popup__btn-container">
-                <a
-                  href="#"
-                  class="popup__btn popup__btn--live"
-                  target="_blank"
+                <a href="#" class="popup__btn popup__btn--live" target="_blank"
                   >See live<i
                     class="popup__btn-icon fas fa-external-link-alt"
                   ></i
@@ -437,7 +430,7 @@
 
       <!-- Contact -->
 
-      <section id="contact" class="contact contact--img">
+      <section class="contact contact--img">
         <h2 class="contact__header">Contact me</h2>
         <p class="contact__info">
           If you have an application you are interested in developing, a feature
@@ -464,7 +457,7 @@
           <div>
             <label for="email"></label>
             <input
-              class="contact__input"
+              class="contact__input contact__input--email"
               type="email"
               name="email"
               id="email"
@@ -472,6 +465,16 @@
               required
             />
           </div>
+
+          <!-- Form validation  -->
+
+          <div class="form__error">
+            <p class="form__error-para">
+              <i class="form__error-icon fas fa-exclamation-triangle"></i>Email
+              must be written in lowercase.
+            </p>
+          </div>
+
           <div>
             <label for="message"></label>
             <textarea

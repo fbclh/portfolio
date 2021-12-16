@@ -124,4 +124,19 @@ btnClose.addEventListener('click', closePopup);
 
 // Validate contact form (Client side validation)
 
+const form = document.querySelector('.contact__form');
+const email = document.querySelector('.contact__input--email');
+const error = document.querySelector('.form__error');
+
+const isUppercase = (string) => string === string.toLowerCase();
+
+form.addEventListener('submit', (event) => {
+  if (isUppercase(email.value)) {
+    error.classList.remove('form__error--message');
+  } else {
+    event.preventDefault();
+    error.classList.add('form__error--message');
+  }
+});
+
 // Preserve data in the browser (Local storage)
