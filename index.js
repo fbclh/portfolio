@@ -96,11 +96,13 @@ const popupSource = document.querySelector('.popup__btn--source');
 
 const openPopup = (project) => {
   popupTitle.textContent = projectsObj[btnOpen.indexOf(project.target)].title;
-  popupCompany.textContent = projectsObj[btnOpen.indexOf(project.target)].company;
+  popupCompany.textContent =
+    projectsObj[btnOpen.indexOf(project.target)].company;
   popupRole.textContent = projectsObj[btnOpen.indexOf(project.target)].role;
   popupYear.textContent = projectsObj[btnOpen.indexOf(project.target)].year;
   popupImage.src = projectsObj[btnOpen.indexOf(project.target)].image;
-  popupDescription.textContent = projectsObj[btnOpen.indexOf(project.target)].description;
+  popupDescription.textContent =
+    projectsObj[btnOpen.indexOf(project.target)].description;
   popupTechnologies.innerHTML = '';
 
   for (
@@ -171,7 +173,7 @@ const updateForm = () => {
   userForm.userName = form.elements[0].value;
   userForm.UserEmail = form.elements[1].value;
   userForm.userMessage = form.elements[2].value;
-  localStorage.setItem(‘userData’, JSON.stringify(userForm));
+  localStorage.setItem('userData', JSON.stringify(userForm));
 };
-form.addEventListener(‘input’, updateForm);
 
+form.addEventListener('input', updateForm);
