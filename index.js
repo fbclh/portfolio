@@ -1,4 +1,8 @@
-// Mobile menu (Dynamic HTML)
+/*
+  ========================================
+  Mobile menu (Dynamic HTML)
+  ========================================
+*/
 
 const openIcon = document.querySelector('.nav__icon-open');
 const closeIcon = document.querySelector('.nav__icon-close');
@@ -19,7 +23,11 @@ menuLinks.forEach((el) => {
   });
 });
 
-// Popup window (JS objects)
+/*
+  ========================================
+  Popup window (JS objects)
+  ========================================
+*/
 
 const projectsObj = [
   {
@@ -122,7 +130,11 @@ btnOpen.forEach((el) => {
 });
 btnClose.addEventListener('click', closePopup);
 
-// Validate contact form (Client side validation)
+/*
+  ===============================================
+  Validate contact form (Client side validation)
+  ===============================================
+*/
 
 const form = document.querySelector('.contact__form');
 const email = document.querySelector('.contact__input--email');
@@ -132,11 +144,34 @@ const isUppercase = (string) => string === string.toLowerCase();
 
 form.addEventListener('submit', (event) => {
   if (isUppercase(email.value)) {
-    error.classList.remove('form__error--message');
+    error.classList.remove('form__error--message'); // Class in CSS only
   } else {
     event.preventDefault();
-    error.classList.add('form__error--message');
+    error.classList.add('form__error--message'); // Class in CSS only
   }
 });
 
-// Preserve data in the browser (Local storage)
+/*
+  =============================================
+  Preserve data in the browser (Local storage)
+  =============================================
+*/
+
+const userForm = {};
+
+if ('userData' in localStorage) {
+  const parsedJSON = JSON.parse(localStorage.userData);
+
+  form.elements[0].value = parsedJSON.userName;
+  form.elements[1].value = parsedJSON.UserEmail;
+  form.elements[2].value = parsedJSON.userMessage;
+}
+
+const updateForm = () => {
+  userForm.userName = form.elements[0].value;
+  userForm.UserEmail = form.elements[1].value;
+  userForm.userMessage = form.elements[2].value;
+  localStorage.setItem('userData', JSON.stringify(userForm));
+};
+
+form.addEventListener('input', updateForm);
