@@ -140,10 +140,10 @@ const form = document.querySelector('.contact__form');
 const email = document.querySelector('.contact__input--email');
 const error = document.querySelector('.form__error');
 
-const isUppercase = (string) => string === string.toLowerCase();
+const isLowerCase = (string) => string === string.toLowerCase();
 
 form.addEventListener('submit', (event) => {
-  if (isUppercase(email.value)) {
+  if (isLowerCase(email.value)) {
     error.classList.remove('form__error--message'); // Class in CSS only
   } else {
     event.preventDefault();

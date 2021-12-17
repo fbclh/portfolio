@@ -8,7 +8,7 @@
 
 - Languages: HTML, CSS and JS
 - Frameworks: None
-- Technologies: Git, GitHub, VSCode, BEM and Figma.
+- Technologies: Git, GitHub, VSCode, BEM, PostCSS and Figma.
 
 ## Live Demo
 
@@ -45,3 +45,36 @@ Give a star if you like this project!
 ## License
 
 This project is [MIT](./MIT.md) licensed.
+
+<!-- 
+============================
+To Dos
+============================
+
+1 - Add href to HTML links 
+2 - Edit README 
+3 - Add Hotjar 
+4 - Add Fontawesome to all SVGs 
+5 - Create boilerplate model from this 
+6 - Use variables for colors etc... As bellow: 
+7 - :root { 
+  --first-color: #36b37e;
+  --second-color: #172b4d;
+  --third-color: #c5e9da;
+  --primary-btn-hover: #36b37f;
+  --primary-btn-active: #008552;
+} 
+8 - New media queries break points for tablets 
+9 - Use mini reset for general rules or normalizer 
+10 - Use font awesome 
+11 - Reorder CSS logically with PostCSS plugins, auto save ? 
+12 - Change px to rem/em and % on margin/padding for scaling 
+13 - Change written number for number on the classes 
+14 - Remove repetition on: .portfolio__card--one 
+15 - Repetition on .about__para-info ? 
+16 - Write shorthand for margin and padding 
+17 - Unnecessary margin on .about__languages ? 
+18 - Remove short hand property on .contact--img background 
+19 - Add form autofocus 
+20 - Redesign when project finish 
+ -->
