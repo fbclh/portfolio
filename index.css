@@ -1,17 +1,18 @@
 /*
   ========================================
-  General
+  General - From sanitize but not working
   ========================================
 */
 
 * {
-  box-sizing: border-box; 
+  box-sizing: border-box;
 }
 
 html,
 body {
-  background-color: #f7f7f9; 
-  font-family: 'Poppins', sans-serif;
+  background-color: #f7f7f9;
+  /* font-family: 'Fira Code', monospace; */
+  font-family: 'Roboto Mono', monospace;
   margin: 0;
 }
 
@@ -31,16 +32,17 @@ ol {
 */
 
 .nav {
-  align-items: center; 
+  align-items: center;
   background-color: #fff;
   display: flex;
   height: 4.438rem;
   justify-content: space-between;
   padding: 1rem 1.5rem;
+  margin-top: 1.5rem;
 }
 
 .nav__logo {
-  height: 2.5rem;
+  height: 3.5rem;
   margin-top: 0.25rem;
   animation-name: rotate-360;
   animation-duration: 2s;
@@ -98,36 +100,44 @@ ol {
   flex-direction: column;
   padding-bottom: 6rem;
   padding-top: 4.5rem;
+  /* width: 100vw;
+  height: 100vh; */
 }
 
 .hero--img {
   background-color: #fff;
-  background-image: url('img/header-shapes mobile@2x.svg');
+  /* background-image: url('img/header-shapes mobile@2x.svg'); */
   background-position: right top;
   background-repeat: no-repeat;
   background-size: cover;
-  border-bottom-left-radius: 5rem;
+  /* border-bottom-left-radius: 5rem; */
 }
 
 .hero__header {
   color: #172b4d;
-  font-size: 2.5rem;
-  line-height: 3.25rem;
+  font-size: 2.75rem;
+  font-weight: 700;
+  /* line-height: 3.25rem; */
   margin: 0;
   padding: 1.5rem;
-  padding-top: 12px; 
+  /* padding-top: 12px; */
   padding-bottom: 0;
+}
+
+.hero__name {
+  color: #6070ff;
 }
 
 .hero__paragraph {
   color: #344563;
   font-size: 1rem;
+  font-weight: 400;
   line-height: 1.5rem;
   margin: 0;
   padding: 1rem 1.5rem;
 }
 
-.hero__text {
+/* .hero__text {
   color: #7f8cff;
   font-size: 16px;
   font-weight: 500;
@@ -137,26 +147,26 @@ ol {
   margin-top: 0;
   padding-bottom: 0;
   padding-top: 0;
-}
+} */
 
-.hero__socials {
+/* .hero__socials {
   align-items: center;
   display: flex;
   gap: 0.6rem;
   justify-content: flex-start;
   padding-left: 1.5rem;
-}
+} */
 
 /* Hero | media queries for desktop */
 
 @media (min-width: 992px) {
   .hero--img {
     background-color: #fff;
-    background-image: url('img/Header bg@2x.svg');
+    /* background-image: url('img/Header bg@2x.svg'); */
     background-position: center top 3rem;
     background-repeat: no-repeat;
     background-size: 97.5%;
-    border-bottom-left-radius: 5rem;
+    /* border-bottom-left-radius: 5rem; */
   }
 
   .hero {
@@ -164,7 +174,7 @@ ol {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding: 16rem 14rem 15rem 15rem;
+    padding: 12rem 14rem 15rem 15rem;
   }
 
   .hero__header {
@@ -196,10 +206,14 @@ ol {
 
 .portfolio__card {
   background-color: #fff;
-  border: 1px solid #dfe1e6;
-  border-radius: 1rem;
+  /* border: 1px solid #dfe1e6; */
+  border: 1px solid #33332d;
+  /* border-radius: 1rem; */
   display: flex;
   flex-direction: column;
+  /* NEW box shadow */
+  box-shadow: -3px 3px #33332d;
+  padding: 0.6rem 1rem;
 }
 
 .portfolio__images {
@@ -249,7 +263,7 @@ ol {
 
 .portfolio__span-two,
 .portfolio__span-three {
-  color: #7a869a; 
+  color: #7a869a;
   font-weight: 600;
 }
 
@@ -272,13 +286,18 @@ ol {
 .portfolio__btn {
   background: #fff;
   border: 1px solid #7f8cff;
-  border-radius: 0.5rem;
+  /* border-radius: 0.5rem; */
   box-sizing: border-box;
   color: #396df2;
   font-size: 1.063rem;
   letter-spacing: 0.03em;
   margin: 1.5rem 0;
   padding: 0.75rem;
+  /* New btn */
+  box-shadow: -3px 3px #33332d;
+  padding: 0.6rem 1rem;
+  /* border: 3px solid #33332d; */
+  /* font-weight: 600; */
 }
 
 .portfolio__btn:hover {
@@ -331,9 +350,9 @@ ol {
   }
 
   .portfolio__card--one {
-    background-color: #fff; 
-    border: 1px solid #dfe1e6;
-    border-radius: 1.5rem;
+    background-color: #fff;
+    border: 1px solid #33332d;
+    /* border-radius: 1.5rem; */
     display: flex;
     flex-direction: row;
   }
@@ -341,7 +360,7 @@ ol {
   .portfolio__card--two {
     background-color: #fff;
     border: 1px solid #dfe1e6;
-    border-radius: 1.5rem;
+    /* border-radius: 1.5rem; */
     display: flex;
     flex-direction: row-reverse;
   }
@@ -349,7 +368,7 @@ ol {
   .portfolio__card--three {
     background-color: #fff;
     border: 1px solid #dfe1e6;
-    border-radius: 1.5rem;
+    /* border-radius: 1.5rem; */
     display: flex;
     flex-direction: row;
   }
@@ -357,9 +376,10 @@ ol {
   .portfolio__card--four {
     background-color: #fff;
     border: 1px solid #dfe1e6;
-    border-radius: 1.5rem;
+    /* border-radius: 1.5rem; */
     display: flex;
     flex-direction: row-reverse;
+    margin-bottom: 275px;
   }
 
   .portfolio__images {
@@ -406,7 +426,7 @@ ol {
   ========================================
 */
 
-.about {
+/* .about {
   background-color: #fff;
   border-top-right-radius: 5rem;
   padding-bottom: 8rem;
@@ -491,7 +511,7 @@ ol {
 .about__para-info,
 .about__para-info,
 .about__para-info {
-  font-size: 1.25rem; 
+  font-size: 1.25rem;
   font-weight: 500;
   line-height: 1.5rem;
 }
@@ -523,11 +543,11 @@ ol {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   height: 0;
   margin: 0 1.5rem;
-}
+} */
 
 /* About | media queries for desktop */
 
-@media (min-width: 992px) {
+/* @media (min-width: 992px) {
   .about {
     align-items: flex-start;
     display: flex;
@@ -537,7 +557,7 @@ ol {
     padding-bottom: 250px;
     padding-top: 125px;
     padding-left: 142px;
-    padding-right: 142px; 
+    padding-right: 142px;
   }
 
   .about__container {
@@ -574,9 +594,9 @@ ol {
   .about__languages,
   .about__frameworks,
   .about__skills {
-    margin-right: 2.5rem; 
+    margin-right: 2.5rem;
   }
-}
+} */
 
 /*
   ========================================
@@ -586,9 +606,10 @@ ol {
 
 .contact--img {
   align-items: center;
-  background: #6070ff url('img/contact form shapes-mobile@1x.svg') top 3rem
-    right no-repeat; 
-  border-top-left-radius: 5rem;
+  /* background: #6070ff url('img/contact form shapes-mobile@1x.svg') top 3rem
+    right no-repeat; */
+  background: #6070ff;
+  /* border-top-left-radius: 5rem; */
   display: flex;
   flex-direction: column;
   margin-top: -10%;
@@ -596,7 +617,7 @@ ol {
 
 .contact__header {
   color: #fff;
-  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Poppins', sans-serif; */
   font-size: 2.5rem;
   font-style: normal;
   font-weight: bold;
@@ -608,7 +629,7 @@ ol {
 
 .contact__info {
   color: #ebebff;
-  font-family: 'Poppins', sans-serif;
+  /* font-family: 'Poppins', sans-serif; */
   font-size: 1.25rem;
   font-style: normal;
   font-weight: 400;
@@ -622,7 +643,7 @@ ol {
 .contact__input {
   background-color: white;
   border: solid 1px #dfdfe0;
-  border-radius: 0.5rem;
+  /* border-radius: 0.5rem;/ */
   color: #b3bac5;
   font-family: 'Poppins', sans-serif;
   height: 3rem;
@@ -635,7 +656,7 @@ ol {
 .contact__textarea {
   background-color: white;
   border: solid 1px #dfdfe0;
-  border-radius: 0.5rem;
+  /* border-radius: 0.5rem; */
   color: #b3bac5;
   font-family: 'Poppins', sans-serif;
   height: 10.625rem;
@@ -648,14 +669,14 @@ ol {
 .contact__btn {
   background: #fff;
   border: 1px solid #7f8cff;
-  border-radius: 0.5rem;
+  /* border-radius: 0.5rem; */
   color: #396df2;
   font-size: 1.063rem;
   letter-spacing: 0.03em;
   margin-bottom: 3rem;
   margin-left: 1.75rem;
   margin-top: 0.5rem;
-  padding: 0.75rem;
+  padding: 0.75rem 1.5rem;
 }
 
 .contact__btn:hover {
@@ -710,9 +731,10 @@ ol {
 @media (min-width: 992px) {
   .contact--img {
     align-items: center;
-    background: #6070ff url('img/contact form background shapes@2x.svg') top
-      3rem right 5rem no-repeat;
-    border-top-left-radius: 5rem;
+    /* background: #6070ff url('img/contact form background shapes@2x.svg') top
+      3rem right 5rem no-repeat; */
+    background: #6070ff;
+    /* border-top-left-radius: 5rem; */
     display: flex;
     flex-direction: column;
     margin-top: -10%;
@@ -731,29 +753,44 @@ ol {
 
 /*
   ========================================
-  To Dos
+  Border Effect
   ========================================
 */
 
-/* Add href to HTML links */
-/* Add Hotjar */
-/* Use variables for colors etc... As bellow: */
-/* :root { 
-  --first-color: #36b37e;
-  --second-color: #172b4d;
-  --third-color: #c5e9da;
-  --primary-btn-hover: #36b37f;
-  --primary-btn-active: #008552;
-} */
-/* New media queries break points for tablets */
-/* Use reset for general rules */
-/* Reorder CSS logically with PostCSS plugins */
-/* Change px to rem/em and % on margin/padding for scaling */
-/* Change written number for number on the classes */
-/* Remove repetition on: .portfolio__card--one */
-/* Repetition on .about__para-info ? */
-/* Write shorthand for margin and padding */
-/* Unnecessary margin on .about__languages ? */
-/* Remove short hand property on .contact--img background */
-/* Add form autofocus */
-/* Redesign when project finish */
+.border__top,
+.border__bottom,
+.border__left,
+.border__right {
+  background: black;
+  position: fixed;
+}
+
+.border__left,
+.border__right {
+  top: 0;
+  bottom: 0;
+  width: 15px;
+}
+
+.border__left {
+  left: 0;
+}
+
+.border__right {
+  right: 0;
+}
+
+.border__top,
+.border__bottom {
+  left: 0;
+  right: 0;
+  height: 15px;
+}
+
+.border__top {
+  top: 0;
+}
+
+.border__bottom {
+  bottom: 0;
+}

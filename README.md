@@ -44,4 +44,30 @@ Give a star if you like this project!
 
 ## License
 
-This project is [MIT](./MIT.md) licensed.
+[MIT](./MIT.md)
+
+<!-- 
+/* Add href to HTML links */
+/* Break points for iphone, ipad, mac */
+/* Add Hotjar */
+/* Use variables for colors etc... As bellow: */
+/* :root { 
+  --first-color: #36b37e;
+  --second-color: #172b4d;
+  --third-color: #c5e9da;
+  --primary-btn-hover: #36b37f;
+  --primary-btn-active: #008552;
+} */
+/* New media queries break points for tablets */
+/* Use reset for general rules */
+/* Reorder CSS logically with PostCSS plugins */
+/* Change px to rem/em and % on margin/padding for scaling */
+/* Change written number for number on the classes */
+/* Remove repetition on: .portfolio__card--one */
+/* Repetition on .about__para-info ? */
+/* Write shorthand for margin and padding */
+/* Unnecessary margin on .about__languages ? */
+/* Remove short hand property on .contact--img background */
+/* Add form autofocus */
+/* Redesign when project finish */
+ -->

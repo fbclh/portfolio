@@ -8,19 +8,24 @@
     <meta name="description" content="" />
 
     <!-- Links -->
+    
+    <link href="index.css" rel="stylesheet" type="text/css" />
+    <link href="css/sanitize.css" rel="stylesheet" type="text/css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&family=Roboto+Mono:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="index.css" type="text/css" />
+
     <!-- Tittle -->
     <title>Portfolio fbclh</title>
 
     <!-- Script -->
     <script src="index.js" defer></script>
-    
+
+    <!-- HotJar -->
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script
       async
@@ -58,10 +63,10 @@
       <!-- Hero -->
       <section class="hero hero--img">
         <h1 class="hero__header">
-          I’m Fabio<br class="hero__breaker-1" />Glad to see<br
+          Hello there, I’m <span class="hero__name">Fabio</span><br class="hero__breaker-1" />Nice to see<br
             class="hero__breaker-2"
           />
-          you!
+          you
         </h1>
         <p class="hero__paragraph">
           I’m a software developer! I can help you build a product , feature or
@@ -69,7 +74,7 @@
           you see and have a project you need coded, don’t hestiate to contact
           me.
         </p>
-        <h3 class="hero__text">LET’S CONNECT</h3>
+        <!-- <h3 class="hero__text">LET’S CONNECT</h3>
         <ul class="hero__socials">
           <li>
             <a href="" target="_blank" rel="">
@@ -96,7 +101,7 @@
               <img src="img/icons8-angellist.svg" alt="AngelList icon" />
             </a>
           </li>
-        </ul>
+        </ul> -->
       </section>
 
       <!-- Portfolio -->
@@ -140,7 +145,8 @@
               <li class="portfolio__tag-two">CSS</li>
               <li class="portfolio__tag-three">Javascript</li>
             </ul>
-            <button class="portfolio__btn" type="button">See Projects</button>
+            <button class="portfolio__btn" type="button">See Live</button>
+            <button class="portfolio__btn" type="button">See Source</button>
           </div>
         </div>
       </section>
@@ -184,7 +190,8 @@
               <li class="portfolio__tag-two">CSS</li>
               <li class="portfolio__tag-three">Javascript</li>
             </ul>
-            <button class="portfolio__btn" type="button">See Projects</button>
+            <button class="portfolio__btn" type="button">See Live</button>
+            <button class="portfolio__btn" type="button">See Source</button>
           </div>
         </div>
       </section>
@@ -228,7 +235,8 @@
               <li class="portfolio__tag-two">CSS</li>
               <li class="portfolio__tag-three">Javascript</li>
             </ul>
-            <button class="portfolio__btn" type="button">See Projects</button>
+            <button class="portfolio__btn" type="button">See Live</button>
+            <button class="portfolio__btn" type="button">See Source</button>
           </div>
         </div>
       </section>
@@ -272,13 +280,14 @@
               <li class="portfolio__tag-two">CSS</li>
               <li class="portfolio__tag-three">Javascript</li>
             </ul>
-            <button class="portfolio__btn" type="button">See Projects</button>
+            <button class="portfolio__btn" type="button">See Live</button>
+            <button class="portfolio__btn" type="button">See Source</button>
           </div>
         </div>
       </section>
 
       <!-- About -->
-      <section class="about">
+      <!-- <section class="about">
         <div class="about__container">
           <h2 class="about__header">About<br />Myself</h2>
           <p class="about__paragraph">
@@ -316,7 +325,6 @@
             </li>
           </ul>
           <button class="about__btn" type="button">Get my resume</button>
-          <!-- Removed div container here -->
         </div>
         <ul class="about__info">
           <li class="about__languages">
@@ -348,16 +356,16 @@
           </li>
           <li><hr class="about__hr" /></li>
         </ul>
-      </section>
+      </section> -->
 
       <!-- Contact -->
       <section class="contact contact--img">
-        <h2 class="contact__header">Contact me</h2>
-        <p class="contact__info">
+        <h2 class="contact__header">Get in touch</h2>
+        <!-- <p class="contact__info">
           If you have an application you are interested in developing, a feature
           that you need built or a project that needs coding. I’d love to help
           with it
-        </p>
+        </p> -->
         <form
           class="contact__form"
           action="https://formspree.io/f/xnqwaoqd"
@@ -398,10 +406,23 @@
             ></textarea>
           </div>
           <div class="contact__container">
-            <button class="contact__btn" type="submit">Get in touch</button>
+            <button class="contact__btn" type="submit">Submit</button>
           </div>
         </form>
       </section>
     </main>
+
+    <!-- Footer -->
+
+    <footer></footer>
   </body>
+
+  <!-- Border Effect -->
+
+  <div class="border">
+    <div class="border__left"></div>
+    <div class="border__right"></div>
+    <div class="border__top"></div>
+    <div class="border__bottom"></div>
+  </div>
 </html>
