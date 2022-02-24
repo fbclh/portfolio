@@ -31,16 +31,16 @@ menuLinks.forEach((el) => {
 
 const projectsObj = [
   {
-    title: 'Tonic',
-    company: 'Canopy',
-    role: 'Back End Dev',
-    year: '2015',
-    image: 'img/popup-snapshoot.png',
+    title: 'Awesome Books',
+    company: 'Microverse',
+    role: 'Front End Dev',
+    year: '2022',
+    image: 'img/awesome-books.png',
     description:
-      'Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam architecto sint, quae sit nostrum accusamus magnam blanditiis iusto in ducimus eligendi voluptatibus commodi.',
+      'Awesome books is a simple website that displays a list of books and allows you to add and remove books from that list. The project was built using vanilla JavaScript.',
     technologies: ['html', 'css', 'javascript'],
-    live: '',
-    source: '',
+    live: 'https://github.com/fbclh/awesome-books',
+    source: 'https://github.com/fbclh/awesome-books',
   },
   {
     title: 'Tonic',
