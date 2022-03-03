@@ -1,6 +1,6 @@
 # Portfolio 
 
-> Portfolio project, the goal is to start working on it from the beginning of the Microverse program and precisely replicate one of the portfolio templates provided.
+> Portfolio project, the goal was to clone precisely a Figma file, to semantic HTML and responsive CSS for both desktop and mobile screens.
 
 ![screenshot](img/portfolio-microverse.png)
 
