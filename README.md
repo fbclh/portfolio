@@ -12,7 +12,7 @@
 
 ## Live Demo
 
-[https://fbclh.github.io/portfolio/](https://fbclh.github.io/portfolio/)
+[fbclh.github.io/portfolio](https://fbclh.github.io/portfolio/)
 
 
 ## Authors
@@ -26,15 +26,6 @@ Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
-## Show your support
-
-Give a star if you like this project!
-
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
 
 ## License
 
