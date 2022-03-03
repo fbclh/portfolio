@@ -1,4 +1,4 @@
-# Portfolio Microverse
+# Portfolio 
 
 > Portfolio project, the goal is to start working on it from the beginning of the Microverse program and precisely replicate one of the portfolio templates provided.
 
@@ -14,17 +14,11 @@
 
 [https://fbclh.github.io/portfolio/](https://fbclh.github.io/portfolio/)
 
-## Getting Started
-
-To get a local copy up and running follow there simple steps:
-
-- You can clone this repo by typing `git clone` git@github.com:fbclh/portfolio-microverse.git on you terminal.
-- Type `cd` portfolio-microverse to access the project on the terminal
 
 ## Authors
 
-- GitHub: [@fbclh](https://github.com/fbclh)
-- LinkedIn: [@fbclh](https://www.linkedin.com/in/fbclh)
+- GitHub: [github.com/fbclh](https://github.com/fbclh)
+- LinkedIn: [linkedin.com/in/fbclh](https://www.linkedin.com/in/fbclh)
 
 ## Contributing
 
