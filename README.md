@@ -12,7 +12,7 @@
 
 ## Live Demo
 
-[www.fbclh.me](http://www.fbclh.me/)
+[https://fbclh.github.io/portfolio/](https://fbclh.github.io/portfolio/)
 
 ## Getting Started
 
